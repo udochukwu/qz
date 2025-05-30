@@ -48,6 +48,15 @@ jobs:
         env:
           PORT: 3000
           NODE_ENV: test
+          NEXT_PUBLIC_STATSIG_CLIENT_KEY: client-qJrMZuz9RjFLxvC5MAYbeViWqb2WLW8QewZUBk5QJrp
+          SENTRY_AUTH_TOKEN: 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
+          NEXTAUTH_SECRET: TEST
+          NEXTAUTH_URL: http://localhost:3000
+          NODE_ENV: test
+          BASE_URL: http://localhost:3000
+          TESTER_LOGIN_SECRET: 5569ec9c-64b5-430b-bba7-2768f814f843
+          E2E_TEST_TIMEOUT: 60000
+          CI: true
 
       - name: Wait for server to be ready
         run: |
