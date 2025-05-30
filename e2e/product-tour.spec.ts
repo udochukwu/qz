@@ -94,17 +94,17 @@ test.describe('Product Tour', () => {
     // Verify tooltip is visible and in view port
     await verifyTooltipInViewport(page, authenticatedPage);
   });
-});
 
-test.describe('Product Tour - Negative Test', () => {
-  test.beforeEach(async ({ page }) => {
-    await setupCompletedProductTourMock(page);
-  });
+  test.describe('Product Tour - Negative Test', () => {
+    test.beforeEach(async ({ page }) => {
+      await setupCompletedProductTourMock(page);
+    });
 
-  // Negative test to ensure that the tour does not start when product tour is already completed
-  test('should not start the product tour when the product tour is already completed', async ({
-    authenticatedPage,
-  }) => {
-    await expect(await authenticatedPage.getTourTooltip()).not.toBeVisible();
+    // Negative test to ensure that the tour does not start when product tour is already completed
+    test('should not start the product tour when the product tour is already completed', async ({
+      authenticatedPage,
+    }) => {
+      await expect(await authenticatedPage.getTourTooltip()).not.toBeVisible();
+    });
   });
 });

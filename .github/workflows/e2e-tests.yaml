@@ -1,0 +1,89 @@
+name: End-to-End Tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  e2e-tests:
+    name: Run E2E Tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 9.12.2
+
+      - name: Get pnpm store directory
+        shell: bash
+        run: |
+          echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
+
+      - name: Setup pnpm cache
+        uses: actions/cache@v3
+        with:
+          path: ${{ env.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Install Playwright browsers
+        run: pnpm exec playwright install --with-deps
+
+      - name: Start Next.js server
+        run: pnpm run dev &
+        env:
+          PORT: 3000
+          NODE_ENV: test
+          NEXT_PUBLIC_STATSIG_CLIENT_KEY: client-qJrMZuz9RjFLxvC5MAYbeViWqb2WLW8QewZUBk5QJrp
+          SENTRY_AUTH_TOKEN: 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
+          NEXTAUTH_SECRET: TEST
+          NEXTAUTH_URL: http://localhost:3000
+          BASE_URL: http://localhost:3000
+
+      - name: Wait for server to be ready
+        run: |
+          timeout=300
+          while ! curl -s http://localhost:3000 > /dev/null; do
+            sleep 1
+            timeout=$((timeout-1))
+            if [ $timeout -le 0 ]; then
+              echo "Server failed to start within 5 minutes"
+              exit 1
+            fi
+          done
+
+      - name: Run Playwright tests
+        run: pnpm test:e2e
+        env:
+          BASE_URL: http://localhost:3000
+          TESTER_LOGIN_SECRET: 5569ec9c-64b5-430b-bba7-2768f814f843
+          E2E_TEST_TIMEOUT: 120000
+          CI: true
+
+      - name: Upload test results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-report
+          path: |
+            playwright-report/
+            test-results/
+          retention-days: 30
+
+      - name: Terminate Next.js server
+        if: always()
+        run: pkill -f "next"
