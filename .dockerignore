@@ -1,0 +1,11 @@
+cdk*
+node_modules
+.tmp
+.cache
+.next
+
+# Version control
+.git
+.gitignore
+.svn
+.hg

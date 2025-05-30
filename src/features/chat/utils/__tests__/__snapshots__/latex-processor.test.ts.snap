@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`processLatexContent should handle escaped characters in LaTeX expressions 1`] = `"$$\\text{text with \\\\ backslash}$$<br/><br/>"`;
+
+exports[`processLatexContent should handle multiple formula expressions in parallel 1`] = `
+"
+$$ \\int e^x dx = e^x + C $$<br/><br/>
+$$ \\int a^x dx = \\frac{a^x}{\\ln a} + C $$<br/><br/>
+"
+`;

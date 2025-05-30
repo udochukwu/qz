@@ -1,0 +1,1078 @@
+{
+  "auth": {
+    "common": {
+      "getStarted": "Commencer",
+      "logOut": "Se d\u00e9connecter",
+      "login": "Connexion",
+      "signUp": "S'inscrire",
+      "toUnstuckAI": "\u00e0 Unstuck AI"
+    },
+    "expiredSession": {
+      "submit": "Se connecter",
+      "subtitle": "Veuillez vous reconnecter pour continuer votre session",
+      "title": "Votre session a peut-\u00eatre expir\u00e9."
+    },
+    "failedLogout": {
+      "submit": "Se d\u00e9connecter",
+      "title": "\u00c9chec de la d\u00e9connexion. Veuillez r\u00e9essayer."
+    },
+    "impersonate": {
+      "loginSecret": "Mot de passe",
+      "submit": "Se faire passer pour un utilisateur",
+      "userId": "ID utilisateur"
+    },
+    "signIn": {
+      "apple": "Continuer avec Apple",
+      "google": "Continuer avec Google"
+    },
+    "signUp": "S'inscrire",
+    "subtitle": "Connectez-vous pour profiter"
+  },
+  "chat": {
+    "copilot": {
+      "collapse": "R\u00e9duire les \u00e9tapes",
+      "expand": "D\u00e9velopper les \u00e9tapes",
+      "search": {
+        "completed": "Recherche de d\u00e9blocage termin\u00e9e !",
+        "inProgress": "Recherche de d\u00e9blocage en cours"
+      }
+    },
+    "courseTitle": {
+      "fileUpload_one": "Vous avez {{count}} fichier en cours de t\u00e9l\u00e9chargement pour cet espace de travail. Veuillez en tenir compte avant d'envoyer un message.",
+      "fileUpload_other": "Vous avez {{count}} fichiers en cours de t\u00e9l\u00e9chargement pour cet espace de travail. Veuillez en tenir compte avant d'envoyer un message.",
+      "text": {
+        "subtitle": {
+          "default": "Vous discutez avec tous les fichiers de votre cours, utilisez la barre lat\u00e9rale pour g\u00e9rer les fichiers avec lesquels discuter.",
+          "one": "Utilisez la barre lat\u00e9rale pour ajouter d'autres fichiers si n\u00e9cessaire",
+          "otherLength": "Utilisez la barre lat\u00e9rale pour les g\u00e9rer"
+        }
+      },
+      "title": "Vous chattez actuellement avec"
+    },
+    "delete": {
+      "description": {
+        "account": "Une fois que vous avez supprim\u00e9 votre compte, vous ne pourrez pas le r\u00e9cup\u00e9rer",
+        "otherEntity": "Une fois que vous avez supprim\u00e9 cet {{entityType}}, vous ne pourrez pas le r\u00e9cup\u00e9rer"
+      },
+      "title": {
+        "account": "\u00cates-vous s\u00fbr de vouloir supprimer votre compte ?",
+        "otherEntity": "\u00cates-vous s\u00fbr de vouloir supprimer {{name}} ?"
+      }
+    },
+    "dragToUpload": {
+      "description": "Abandonnez les diapositives de cours, les notes, les vid\u00e9os et les manuels et commencez \u00e0 discuter - pour",
+      "error": "Impossible de t\u00e9l\u00e9charger le type de fichier {{fileType}}. Veuillez uniquement t\u00e9l\u00e9charger les types de fichiers {{acceptedFileTypes}}.",
+      "free": "GRATUIT",
+      "select": {
+        "base": "Glissez-d\u00e9posez ou s\u00e9lectionnez des fichiers",
+        "computer": "Depuis l'ordinateur",
+        "files": "\u00c0 partir des fichiers t\u00e9l\u00e9charg\u00e9s",
+        "placeholder": "Ajouter des ressources"
+      },
+      "title": "Glisser-d\u00e9poser des fichiers"
+    },
+    "example": {
+      "title": "Cr\u00e9ation d'un chat {{example}}"
+    },
+    "feedback": {
+      "close": "Fermer les commentaires",
+      "question": {
+        "placeholder": "Tapez votre r\u00e9ponse ici..."
+      },
+      "submit": "Envoyer un commentaire",
+      "title": "Commentaires"
+    },
+    "fileUpload": {
+      "description": "D\u00e9posez des diapositives, des notes de cours, un enregistrement et commencez \u00e0 discuter",
+      "description_flashcards": "D\u00e9posez des diapositives, des cours, des notes, des enregistrements et commencez \u00e0 cr\u00e9er des fiches de r\u00e9vision",
+      "for": "pour",
+      "free": "gratuitement",
+      "free1": "GRATUIT",
+      "loading": "Cr\u00e9ation de la salle de discussion",
+      "youtube": {
+        "chatWithVideo": "Discuter avec vid\u00e9o",
+        "description": "Coller le lien vers une vid\u00e9o YouTube pour l'ajouter \u00e0 vos fichiers",
+        "from": "De YouTube",
+        "uploadFrom": "T\u00e9l\u00e9charger depuis YouTube"
+      }
+    },
+    "header": {
+      "editChat": "Modifier le chat",
+      "editClass": "Modifier le nom de la classe",
+      "upgrade": "Mettre \u00e0 niveau le plan"
+    },
+    "input": {
+      "error": "\u00c9chec de l'envoi du message. Veuillez r\u00e9essayer.",
+      "placeholder": "Posez n'importe quelle question ou entrez un lien YouTube...",
+      "success": "Un instant, redirection vers votre nouveau chat"
+    },
+    "message": {
+      "ai": {
+        "error": "\u00c9chec du t\u00e9l\u00e9chargement du message. Veuillez r\u00e9essayer plus tard."
+      },
+      "error": "\u00c9chec de l\\'envoi du message",
+      "raw": "Brut"
+    },
+    "quick": {
+      "error": "\u00c9chec du traitement de la vid\u00e9o"
+    },
+    "regenerate": {
+      "error": "Une erreur s'est produite lors de la g\u00e9n\u00e9ration de la r\u00e9ponse",
+      "submit": "R\u00e9g\u00e9n\u00e9rer"
+    },
+    "share": {
+      "copy": {
+        "with": "Partager une copie de la conversation avec les messages existants",
+        "without": "Partager une copie de la conversation sans les messages existants"
+      },
+      "description": {
+        "instructions": "Votre nom, les instructions personnalis\u00e9es et tous les messages que vous ajoutez apr\u00e8s le partage restent priv\u00e9s."
+      },
+      "title": "Partager cette conversation"
+    },
+    "upgrade": {
+      "ajoinThe2Million": "Rejoignez les 2 millions d'\u00e9tudiants qui nous font confiance",
+      "answeredQuestions": "Questions r\u00e9pondues",
+      "join": "Rejoignez",
+      "messageLimit": "Vous avez atteint la limite de messages",
+      "trust": "qui nous font confiance",
+      "unlimitedAccess": "Avec Unstuck Pro, vous avez un acc\u00e8s illimit\u00e9 \u00e0 toutes les fonctionnalit\u00e9s d'Unstuck !",
+      "unlimitedQuestions": "Passez \u00e0 la version pro pour poser des questions illimit\u00e9es !"
+    },
+    "video": {
+      "helpfulTip": "Cette vid\u00e9o vous a-t-elle \u00e9t\u00e9 utile ?",
+      "watchAgain": "Revoir"
+    }
+  },
+  "class": {
+    "menu": {
+      "actions": {
+        "askCustomerSupport": "Contacter le service client",
+        "joinDiscord": "Rejoindre le Discord",
+        "tutorial": "Voir le tutoriel"
+      },
+      "conversationList": {
+        "recent": "R\u00e9cents",
+        "recentChat": "Conversations r\u00e9centes",
+        "unassignedChat": "Chats non assign\u00e9s"
+      },
+      "sidebar": {
+        "close": "Fermer la barre lat\u00e9rale",
+        "error": "Impossible de charger la barre lat\u00e9rale",
+        "open": "Ouvrir la barre lat\u00e9rale",
+        "quest": {
+          "title": "Qu\u00eates d'int\u00e9gration"
+        }
+      },
+      "unsavedRecordings": "Vous avez {{numUnsavedRecordings}} enregistrements non sauvegard\u00e9s"
+    },
+    "pageHeader": {
+      "description": "Voir les classes que vous avez cr\u00e9\u00e9es",
+      "title": "Mes cours"
+    },
+    "workspace": {
+      "aboutClasses": "\u00c0 propos des cours",
+      "allFileBrowsing": {
+        "error": "Les fichiers n'ont pas pu \u00eatre charg\u00e9s",
+        "selectFile": "Veuillez s\u00e9lectionner au moins un fichier",
+        "title": "Tous les fichiers"
+      },
+      "createNewClass": "Cr\u00e9er une nouvelle classe",
+      "duplicateClassDescription": "sera dupliqu\u00e9e dans votre classe",
+      "duplicateClassTitle": "Dupliquer la classe ?",
+      "error": {
+        "class_not_found": "La classe que vous essayez d'acc\u00e9der n'existe pas ou a \u00e9t\u00e9 supprim\u00e9e",
+        "class_not_found_title": "Aucune classe trouv\u00e9e"
+      },
+      "error_one": "La classe n'a pas pu \u00eatre charg\u00e9e",
+      "error_other": "Les classes n'ont pas pu \u00eatre charg\u00e9es",
+      "header": {
+        "share": {
+          "description": "Partagez cette classe avec vos camarades de classe en partageant le lien ci-dessous.",
+          "title": "Partagez ce cours"
+        }
+      },
+      "new": "Nouvelle classe",
+      "onboarding": {
+        "description": "Lorsque vous commencez une conversation avec une classe, Unstuck utilise tous les documents qu'elle contient pour fournir des r\u00e9ponses, en citant les diff\u00e9rentes sources pour une plus grande pr\u00e9cision et pertinence.",
+        "title": "Les classes sont des ensembles organis\u00e9s de ressources avec lesquelles vous pouvez discuter.",
+        "titlePrimary": "Les classes sont comme des dossiers pour les diff\u00e9rents sujets pour lesquels vous souhaitez utiliser Unstuck."
+      },
+      "quickActions": {
+        "chatWith": "discuter avec ",
+        "flashcardFor": "fiche de r\u00e9vision pour ",
+        "quizFor": "quiz pour",
+        "recordFor": "enregistrer pour ",
+        "title": "Actions rapides"
+      }
+    }
+  },
+  "collection": {
+    "asc": "Date de cr\u00e9ation - Asc",
+    "dsc": "Date de cr\u00e9ation - Desc",
+    "flashcards": {
+      "list": {
+        "empty": {
+          "description": "Cr\u00e9ez des fiches pour exploiter tout le potentiel d'Unstuck.",
+          "title": "Vous n'avez pas encore cr\u00e9\u00e9 de fiches d'\u00e9tude"
+        },
+        "error": "Les fiches n'ont pas \u00e9t\u00e9 charg\u00e9es"
+      }
+    },
+    "history": {
+      "list": {
+        "empty": {
+          "description": "Cr\u00e9ez un chat pour profiter pleinement du potentiel d'Unstuck.",
+          "title": "Vous n'avez pas encore cr\u00e9\u00e9 de conversation"
+        },
+        "error": "L'historique n'a pas \u00e9t\u00e9 charg\u00e9"
+      }
+    },
+    "questions": "{{count}} questions",
+    "quizzes": {
+      "empty": {
+        "description": "Cr\u00e9ez des quiz pour exploiter tout le potentiel de Unstuck.",
+        "title": "Vous n'avez pas encore cr\u00e9\u00e9 de quiz"
+      },
+      "error": "Les quiz n'ont pas \u00e9t\u00e9 charg\u00e9s"
+    },
+    "recents": "R\u00e9cents",
+    "sevenDaysAgo": "il y a 7 jours",
+    "terms": "{{count}} termes"
+  },
+  "common": {
+    "addClass": "Ajouter \u00e0 la classe",
+    "addFile": "Ajouter un fichier",
+    "address": "Adresse",
+    "allFiles": "Tous les fichiers",
+    "askQuestion": "Poser une question",
+    "cancel": "Annuler",
+    "chat": "Discuter",
+    "chats": "Conversations",
+    "class_one": "Classe",
+    "class_other": "Classes",
+    "classes": "Classes",
+    "clickHere": "Cliquez ici",
+    "close": "Fermer",
+    "closeDialog": "Fermer la bo\u00eete de dialogue",
+    "collection": "Collections",
+    "confirm": "Confirmer",
+    "connectClass": "Se connecter \u00e0 un cours",
+    "copy": "Copi\u00e9",
+    "copyLink": "Copier le lien",
+    "create": "Cr\u00e9er",
+    "createFlashcard": "Transformer en flashcards",
+    "createQuiz": "Transformer en quiz",
+    "daysAgo": "il y a quelques jours",
+    "delete": "Supprimer",
+    "deleteWithParameter": "Supprimer {{name}}",
+    "done": "Termin\u00e9",
+    "download": "T\u00e9l\u00e9charger",
+    "downloadApp": {
+      "openInAppStore": "Ouvrir dans l'App Store",
+      "takeYourLearning": "Utilisez l'application mobile pour enregistrer les cours, r\u00e9sumer les notes, et plus encore !",
+      "useMobileApp": "Utilisez Unstuck en d\u00e9placement avec notre application mobile"
+    },
+    "duplicate": "Dupliquer",
+    "email": "Envoyer par courriel",
+    "enterToSearch": "Entrer pour rechercher",
+    "error": {
+      "base": "Erreur",
+      "files": "Les fichiers n'ont pas pu \u00eatre charg\u00e9s",
+      "server": "Une erreur serveur s'est produite. Veuillez r\u00e9essayer plus tard.",
+      "title": "Quelque chose s'est mal pass\u00e9 !"
+    },
+    "exit": "Quitter",
+    "expand": "D\u00e9velopper",
+    "files": "Fichiers",
+    "finish": "Terminer",
+    "fitToPage": "Ajuster \u00e0 la page",
+    "flashcards": "Fiches",
+    "for": "pour",
+    "goBack": "Retour",
+    "happy": "Heureux",
+    "history": "Historique",
+    "home": "Accueil",
+    "hoursAgo": "il y a des heures",
+    "import": "Importer",
+    "justNow": "Tout \u00e0 l' heure",
+    "language": "Langue",
+    "learnMore": "En savoir plus",
+    "loading": "Chargement...",
+    "minutesAgo": "il y a quelques minutes",
+    "monthsAgo": "il y a des mois",
+    "moreActions": "Plus d'actions",
+    "name": "Nom",
+    "new": "Nouveau",
+    "newChat": "Nouvelle conversation",
+    "newChatWithClass": "Nouvelle conversation avec classe",
+    "newFlashCard": "Nouvelle s\u00e9rie de cartes flash",
+    "newFlashcard": "Nouvelles fiches",
+    "newQuiz": "Nouveau quiz",
+    "newRecording": "Nouvel enregistrement",
+    "next": "Suivant",
+    "notFound": "introuvable !",
+    "openSearch": "Ouvrir la recherche",
+    "quiz": "Questionnaire",
+    "quizzes": "Questionnaires",
+    "readTranscript": "Lire la transcription",
+    "record": "Enregistrer",
+    "references": "R\u00e9f\u00e9rences",
+    "rename": "Renommer",
+    "renameWithParameter": "Renommer {{name}}",
+    "resources": "Ressources",
+    "retry": "R\u00e9essayer",
+    "sad": "triste",
+    "save": "Enregistrer",
+    "saved": "Enregistr\u00e9",
+    "search": "Rechercher",
+    "select": {
+      "class": "S\u00e9lectionnez une classe",
+      "language": "S\u00e9lectionnez une langue",
+      "major": "Choisissez votre fili\u00e8re",
+      "school": "S\u00e9lectionnez votre \u00e9cole"
+    },
+    "send": "Envoyer",
+    "sendMessage": "Envoyer un message",
+    "share": "Partager",
+    "skip": "Passer",
+    "skipForNow": "Ignorer pour le moment",
+    "sorry": "D\u00e9sol\u00e9",
+    "startChat": "D\u00e9marrer la conversation",
+    "students": "\u00e9tudiants",
+    "submit": "Envoyer",
+    "tag": "\u00c9tiquette",
+    "today": "Aujourd'hui",
+    "type": "Type",
+    "untitledChat": "Chat sans titre",
+    "upload": "T\u00e9l\u00e9charger",
+    "uploadFile": "T\u00e9l\u00e9charger un fichier",
+    "viewAll": "Tout afficher",
+    "viewClass": "Voir la classe",
+    "warning": "Avertissement",
+    "yearsAgo": "il y a des ann\u00e9es",
+    "youtube": "YouTube"
+  },
+  "feedback": {
+    "description": "Que pensez-vous des notes que nous vous donnons ?",
+    "negative": {
+      "description": "S\u00e9lectionnez tout ce qui s'applique",
+      "reasons": {
+        "notRelevant": "Le contenu n'est pas pertinent pour les documents que j'ai t\u00e9l\u00e9charg\u00e9s",
+        "notUseful": "Ils ne m'ont pas \u00e9t\u00e9 utiles",
+        "others": {
+          "placeholder": "Veuillez pr\u00e9ciser vos commentaires",
+          "title": "Autres"
+        },
+        "tooLengthy": "Les notes sont trop longues",
+        "tooShort": "Les notes sont trop courtes"
+      },
+      "title": "Pourquoi ne les avez-vous pas aim\u00e9es ?"
+    },
+    "reactions": {
+      "notSatisfied": "Pas satisfait",
+      "verySatisfied": "Tr\u00e8s satisfait"
+    },
+    "title": "Envoyez-nous vos commentaires"
+  },
+  "files": {
+    "list": {
+      "header": {
+        "confirm": {
+          "title_one": "Vous supprimez {{count}} fichier",
+          "title_other": "Vous supprimez {{count}} fichiers"
+        }
+      },
+      "item": {
+        "addToWorkspace": {
+          "select": "S\u00e9lectionnez la classe \u00e0 lier"
+        },
+        "share": {
+          "description": "Partagez ce fichier avec vos camarades de classe en utilisant le lien ci-dessous.",
+          "title": "Partager ce fichier"
+        }
+      },
+      "noFiles": {
+        "instructions": {
+          "noSearch": "T\u00e9l\u00e9chargez vos fichiers pour commencer \u00e0 discuter avec eux !",
+          "search": "Modifiez vos filtres de recherche ou supprimez-les pour voir plus de fichiers"
+        },
+        "noFilesFound": "Aucun fichier trouv\u00e9",
+        "noFilesUploaded": "Vous n'avez actuellement aucun fichier t\u00e9l\u00e9charg\u00e9"
+      },
+      "recording": {
+        "unsaved": {
+          "delete": "Supprimer l'enregistrement",
+          "name": "Enregistrement en cours",
+          "recover": "R\u00e9cup\u00e9rer l'enregistrement"
+        }
+      },
+      "uploadDate": "Date de t\u00e9l\u00e9chargement"
+    },
+    "pageHeader": {
+      "description": "Voir les fichiers que vous avez ajout\u00e9s",
+      "title": "Mes fichiers"
+    },
+    "pdf": {
+      "audio": {
+        "downloading": "T\u00e9l\u00e9chargement de l'audio, veuillez patienter..."
+      },
+      "chunk": {
+        "aboutReferences": "\u00c0 propos des r\u00e9f\u00e9rences",
+        "chatWith": "Discuter avec",
+        "description": "Chaque r\u00e9f\u00e9rence est cliquable et renvoie directement \u00e0 sa source, vous permettant de v\u00e9rifier rapidement les informations et d'explorer le contexte plus large si n\u00e9cessaire.",
+        "empty": {
+          "description": "T\u00e9l\u00e9chargez des fichiers pour profiter pleinement de l'exp\u00e9rience Unstuck",
+          "title": "Aucune r\u00e9f\u00e9rence n'a \u00e9t\u00e9 utilis\u00e9e"
+        },
+        "title": "Les r\u00e9f\u00e9rences indiquent les emplacements exacts dans vos documents de cours qui \u00e9tayent les r\u00e9ponses d'Unstuck.",
+        "topicCard": "Carte de sujet"
+      },
+      "upload": {
+        "close": "Fermer la liste des fichiers en attente",
+        "message": {
+          "flashcards_submit": "Cr\u00e9er des fiches",
+          "submit": "Commencer \u00e0 discuter",
+          "title": "{{filename}} a termin\u00e9 de se t\u00e9l\u00e9charger."
+        },
+        "singular": "T\u00e9l\u00e9chargement du fichier",
+        "title": "T\u00e9l\u00e9chargement des fichiers",
+        "toggle": "Afficher/Masquer la liste de fichiers en attente"
+      }
+    }
+  },
+  "flashcards": {
+    "back": "retour",
+    "backToLastQuestion": "retour \u00e0 la derni\u00e8re question",
+    "clickToFlip": "Cliquez sur la carte pour la retourner",
+    "edit": "Modifier",
+    "editFlashcard": "Modifier la fiche",
+    "error": "Une erreur s'est produite lors de la g\u00e9n\u00e9ration de vos cartes flash",
+    "flashset": {
+      "terms": "conditions"
+    },
+    "generating": "G\u00e9n\u00e9ration de vos cartes flash en cours...",
+    "getAHint": "Obtenez un indice",
+    "limit": {
+      "button": "Passez \u00e0 la version payante",
+      "message": "Vous avez atteint la limite de g\u00e9n\u00e9ration de fiches de r\u00e9vision",
+      "upgrade": "Veuillez mettre \u00e0 niveau pour g\u00e9n\u00e9rer plus de fiches"
+    },
+    "memorized": "M\u00e9moris\u00e9",
+    "newFlashcard": "Nouvelle carte flash",
+    "noFlashcard": "Aucune fiche encore.",
+    "progressCompletionMessage": "Wow, vous connaissez votre sujet ! Vous avez parcouru toutes les cartes",
+    "progressMessage20": "Vous ne faites que commencer, continuez !",
+    "progressMessage40": "Vous faites de bons progr\u00e8s avec cette s\u00e9rie d'exercices.",
+    "progressMessage60": "Continuez ! Vous y \u00eates presque",
+    "progressMessage80": "Vous y \u00eates presque ! Vous vous d\u00e9brouillez tr\u00e8s bien avec cet ensemble.",
+    "restartFlashcards": "Recommencer les cartes flash",
+    "review": {
+      "addMore": "Ajouter plus",
+      "approveAll": "Approuver tout",
+      "approveAllCards": "Approuver toutes les fiches ?",
+      "approveTheseFlashcards": "approuver ces fiches ?",
+      "areYouSure": "{\n  'translation': '\u00cates-vous s\u00fbr de vouloir {{confirmAction}} ? Cette action est irr\u00e9versible.'\n",
+      "deleteCards": "Supprimer la fiche ?",
+      "deleteFlashcardSetSubTitle": "\u00cates-vous s\u00fbr de vouloir supprimer cet ensemble de fiches ? Cette action est irr\u00e9versible.",
+      "deleteFlashcardSetTitle": "Supprimer l'ensemble de fiches",
+      "deleteThisFlashcard": "supprimer cette carte flash ?",
+      "flashcardsToReview": "{{count}} fiches \u00e0 r\u00e9viser",
+      "no": "Non",
+      "seeFlashcardsFrom": "Voir les fiches de {{flashCardSource}}",
+      "yesApprove": "Oui, approuver",
+      "yesDelete": "Oui, supprimer"
+    },
+    "selectFile": "\u00c0 partir de quel mat\u00e9riel souhaitez-vous cr\u00e9er des fiches ?",
+    "share": "Partager",
+    "shareFlashcardSet": {
+      "description": "Partagez cet ensemble de cartes-\u00e9clairs avec vos camarades de classe en partageant le lien ci-dessous.",
+      "title": "Partagez ce jeu de cartes flash"
+    },
+    "stillLearning": "Toujours en apprentissage",
+    "tabs": {
+      "all": "Tout",
+      "starred": "Favoris ({{starredLength}})"
+    },
+    "takeAWhile": "Cela peut prendre un certain temps selon la taille de votre t\u00e9l\u00e9chargement",
+    "termsInThisSet": "Termes dans cet ensemble ({{setLength}})",
+    "trackProgress": "Suivre la progression"
+  },
+  "health": {
+    "title": "Page Saine"
+  },
+  "history": {
+    "list": {
+      "empty": {
+        "description": "Cr\u00e9ez un chat pour exploiter tout le potentiel de Unstuck.",
+        "title": "Vous n'avez pas encore cr\u00e9\u00e9 de conversation"
+      },
+      "error": "L'historique n'a pas \u00e9t\u00e9 charg\u00e9"
+    },
+    "pageHeader": {
+      "description": "Voir les conversations que vous avez cr\u00e9\u00e9es",
+      "title": "Historique"
+    }
+  },
+  "landing": {
+    "examples": {
+      "title": "Commencer avec des exemples"
+    },
+    "faq": {
+      "title": "Questions fr\u00e9quemment pos\u00e9es"
+    },
+    "footer": {
+      "contact": "Contactez-nous",
+      "description": "Nous sommes une \u00e9quipe agile de cr\u00e9ateurs travaillant en personne \u00e0 New York, soutenus par des investisseurs de classe mondiale tels que Neo, Cal Henderson, Maria Zhang, Adam Freed, Russell Kaplan et d'autres.",
+      "legal": "Mentions l\u00e9gales & confidentialit\u00e9",
+      "meetTheTeam": "Rencontrez l'\u00e9quipe",
+      "privacy": "Confidentialit\u00e9",
+      "quickLinks": "Liens rapides",
+      "socials": "R\u00e9seaux sociaux",
+      "terms": "Conditions",
+      "title": "Le premier produit d'Unstuck AI a \u00e9t\u00e9 lanc\u00e9 depuis notre chambre d'\u00e9tudiant en janvier 2023. Ayant exp\u00e9riment\u00e9 de premi\u00e8re main les lacunes du syst\u00e8me \u00e9ducatif unique, nous avons pour mission de le r\u00e9parer gr\u00e2ce \u00e0 la recherche appliqu\u00e9e en IA et en d\u00e9veloppant des produits d\u00e9licieux."
+    },
+    "hero": {
+      "description": {
+        "citedAnswers": "obtenir des r\u00e9ponses cit\u00e9es",
+        "files": "fichiers dans votre classe",
+        "once": "imm\u00e9diatement et",
+        "withUnstuck": "Avec Unstuck AI, chattez avec tous les"
+      },
+      "title": {
+        "chat": "Discuter avec",
+        "your": "votre"
+      }
+    },
+    "uploadWizard": {
+      "askQuestion": {
+        "placeholder": "Pourquoi le ciel est-il bleu ?"
+      },
+      "fileUpload": {
+        "forFlashcards": {
+          "title": {
+            "click": "Commencez \u00e0 cr\u00e9er des fiches",
+            "dragAndDrop": "bas\u00e9 sur vos fichiers"
+          }
+        },
+        "title": {
+          "click": "Cliquez pour t\u00e9l\u00e9charger",
+          "dragAndDrop": "ou glisser-d\u00e9poser des fichiers"
+        }
+      },
+      "quiz": {
+        "button": "Cr\u00e9er un quiz",
+        "description": "D\u00e9posez des diapositives, des cours, des notes, des enregistrements et commencez \u00e0 \u00e9tudier",
+        "title": {
+          "quiz": "sur vos fichiers",
+          "test": "Testez vos connaissances"
+        }
+      },
+      "recordLecture": {
+        "description": "et commencez \u00e0 discuter",
+        "title": "Enregistrez vos cours"
+      }
+    }
+  },
+  "language": {
+    "de": "Allemand",
+    "en": "Anglais",
+    "es": "Espagnol",
+    "fr": "Fran\u00e7ais",
+    "it": "Italien",
+    "pt": "Portugais",
+    "title": "Changer de langue",
+    "tl": "Philippin"
+  },
+  "newChatView": {
+    "classesFileBrowser": {
+      "error": "Impossible de charger les fichiers ou les classes",
+      "list": {
+        "description": "Lorsque vous commencez une conversation avec une classe, Unstuck utilise tous les documents qui s'y trouvent pour fournir des r\u00e9ponses, en citant \u00e0 travers les sources pour une plus grande pr\u00e9cision et pertinence.",
+        "instruction": {
+          "noClass": "Une classe est un ensemble de ressources avec lesquelles vous pouvez discuter. Cr\u00e9ez une classe pour commencer !",
+          "otherClass": "S\u00e9lectionnez la classe pour discuter"
+        },
+        "title": "Les classes sont des ensembles organis\u00e9s de ressources avec lesquelles vous pouvez discuter."
+      },
+      "recordLecture": {
+        "description": "Enregistrez vos cours et sauvegardez-les pour poser des questions",
+        "title": "Commencer l'enregistrement",
+        "view": {
+          "confirm": {
+            "description": "\u00cates-vous s\u00fbr de vouloir quitter ? Votre enregistrement en cours sera perdu.",
+            "title": "Quitter l'enregistrement ?"
+          },
+          "enchancedVoiceVisualizer": {
+            "description": "T\u00e9l\u00e9chargement de votre enregistrement... Veuillez ne pas quitter.",
+            "error": "Erreur d'acc\u00e8s \u00e0 votre microphone, veuillez autoriser l'acc\u00e8s \u00e0 votre microphone ou utiliser un autre navigateur",
+            "title": "Enregistrement en pause"
+          },
+          "error": {
+            "description": "Un probl\u00e8me est survenu lors du t\u00e9l\u00e9chargement de votre enregistrement.",
+            "saveOnDevice": {
+              "submit": "Enregistrer sur mon appareil",
+              "title": "Veuillez l'enregistrer sur votre appareil et le t\u00e9l\u00e9charger \u00e0 nouveau plus tard"
+            },
+            "title": "Erreur de t\u00e9l\u00e9chargement",
+            "tryAgain": "Veuillez r\u00e9essayer plus tard."
+          },
+          "title": "Unstuck enregistre"
+        }
+      }
+    },
+    "hiHowCanIHelpYouToday": "Bonjour, comment puis-je vous aider aujourd'hui ?",
+    "onboarding": {
+      "questions": {
+        "description": "Cela permet de mieux vous comprendre",
+        "dropdown": {
+          "placeholder": "Rechercher Informatique, Biologie, Physique..."
+        },
+        "otherPlaceholder": "Veuillez pr\u00e9ciser",
+        "step": "\u00c9tape {{questionIndex}} sur {{questionLength}}"
+      },
+      "study": {
+        "description": "Aidez-moi \u00e0 personnaliser votre exp\u00e9rience. \u00c0 quel niveau d'\u00e9tudes \u00eates-vous ?",
+        "step": "\u00c9tape 1 sur {{questionLength}}",
+        "title": "Salut, je suis Unstuck AI \ud83d\udc4b"
+      },
+      "upgradePlan": {
+        "annual": "Annuel",
+        "billed": "factur\u00e9 annuellement",
+        "cancel": "annuler \u00e0 tout moment",
+        "description": "Passez \u00e0 la version pro pour acc\u00e9der sans limite \u00e0 toutes les fonctionnalit\u00e9s d'Unstuck.",
+        "features": {
+          "numberOne": "#1 Mod\u00e8le d'IA avanc\u00e9 dans l'\u00e9ducation",
+          "unlimited": {
+            "chat": "Messages et discussions illimit\u00e9es",
+            "fileUploads": "T\u00e9l\u00e9chargements de fichiers illimit\u00e9s",
+            "flashcards": "Cartes flash illimit\u00e9es",
+            "quizzes": "Quizzes illimit\u00e9s",
+            "recordings": "Enregistrements de cours illimit\u00e9s",
+            "youtubeUploads": "T\u00e9l\u00e9chargement illimit\u00e9 sur YouTube"
+          }
+        },
+        "limit": {
+          "base": "Passez \u00e0 l'illimit\u00e9",
+          "document": "Vous avez atteint la limite quotidienne de t\u00e9l\u00e9chargement",
+          "message": "Vous avez atteint la limite quotidienne de messages",
+          "quiz": "Vous avez atteint la limite quotidienne de quiz",
+          "quiz-unlimited-questions-reached": "Vous avez atteint la limite quotidienne de questions de quiz",
+          "recording": "Vous avez atteint la limite quotidienne d'enregistrement",
+          "youtube": "Vous avez atteint la limite quotidienne de t\u00e9l\u00e9chargement sur YouTube"
+        },
+        "monthly": "Mensuel",
+        "premium": "Premium",
+        "yearly": "Annuel"
+      }
+    },
+    "paywall": {
+      "cancelConfirmation": {
+        "description": "Une fois que vous aurez annul\u00e9 votre abonnement, vous reviendrez au plan gratuit.",
+        "title": "\u00cates-vous s\u00fbr de vouloir annuler votre abonnement ?"
+      },
+      "cancelPlan": "Annuler l'abonnement",
+      "cancelReason": {
+        "description": "Nous aimerions savoir comment nous pouvons nous am\u00e9liorer. Veuillez partager vos r\u00e9flexions sur les raisons qui vous ont pouss\u00e9 \u00e0 annuler votre abonnement.",
+        "options": {
+          "alternative": "J'ai trouv\u00e9 une meilleure alternative",
+          "competitor": "Passer \u00e0 un concurrent",
+          "expectations": "N'a pas r\u00e9pondu aux attentes",
+          "expensive": "Trop cher",
+          "otherReason": "Autre",
+          "service": "Plus besoin du service",
+          "technicalIssues": "Probl\u00e8mes techniques",
+          "temporarySubscription": "Abonnement temporaire seulement"
+        },
+        "title": "Nous sommes d\u00e9sol\u00e9s de vous voir partir"
+      },
+      "currentPlan": "Offre actuelle",
+      "feedback": {
+        "description": "Veuillez nous faire part de toutes suggestions que vous pourriez avoir pour am\u00e9liorer notre produit.",
+        "placeholder": "Je pense que...",
+        "title": "Dites-nous comment nous pouvons nous am\u00e9liorer"
+      },
+      "freePlan": "Plan gratuit",
+      "proPlan": "Forfait Pro",
+      "upgradeNow": "Passer \u00e0 la version payante",
+      "upgradePlan": {
+        "description": "Obtenez plus de g\u00e9n\u00e9rations et plus",
+        "title": "Passer \u00e0 la formule sup\u00e9rieure"
+      },
+      "upgradePro": "Passez au Pro"
+    },
+    "yourPersonalAIAssistantToHelpWithYourSchoolWork": "Votre assistant IA personnel pour vous aider dans vos travaux scolaires, choisissez une classe ou un fichier pour discuter"
+  },
+  "onboarding": {
+    "academic": {
+      "college": "Universit\u00e9",
+      "description": "Nous utiliserons cela pour vous mettre en relation avec les bonnes ressources.",
+      "error": "Impossible de charger le panneau d'int\u00e9gration acad\u00e9mique",
+      "major": "Fili\u00e8re",
+      "title": "Obtenons quelques informations acad\u00e9miques"
+    },
+    "confirm": {
+      "title": "Finalisation de l'int\u00e9gration"
+    },
+    "error": "Erreur lors de la cr\u00e9ation de l'enqu\u00eate d'int\u00e9gration",
+    "lmsLinker": {
+      "blackboard": {
+        "description": "Nous synchronisons avec votre Blackboard pour obtenir vos documents de cours.",
+        "extension": "Obtenez l'extension Chrome Blackboard Sync",
+        "instructions": {
+          "stepOne": {
+            "description": "Cliquez sur l'ic\u00f4ne de l'extension",
+            "title": "Ouvrez l'extension"
+          },
+          "stepThree": {
+            "description": "Cliquez sur le bouton orange 'ouvrir Unstuck' pour vous connecter \u00e0 votre compte Unstuck",
+            "title": "Terminez le processus de liaison"
+          },
+          "stepTwo": {
+            "description": "Cliquez sur le bouton 'Lier \u00e0 Blackboard' pour autoriser l'acc\u00e8s \u00e0 Blackboard.",
+            "title": "Lien vers Blackboard"
+          }
+        },
+        "title": "Liez votre Blackboard"
+      },
+      "canvas": {
+        "description": "Nous synchronisons avec votre Canvas pour obtenir vos documents de cours.",
+        "instructions": {
+          "noSupport": "Votre navigateur ne prend pas en charge la balise vid\u00e9o.",
+          "stepFour": {
+            "description": "Copiez et collez votre jeton ci-dessous et liez",
+            "title": "Entrez le jeton"
+          },
+          "stepOne": {
+            "description": "Connectez-vous \u00e0 Canvas et acc\u00e9dez \u00e0 votre page de param\u00e8tres",
+            "title": "Acc\u00e9der aux param\u00e8tres"
+          },
+          "stepThree": {
+            "description": "Entrez XXXXXXXX comme nom, laissez le champ d'expiration vide et cliquez sur g\u00e9n\u00e9rer un jeton",
+            "title": "G\u00e9n\u00e9rer un jeton"
+          },
+          "stepTwo": {
+            "description": "Faites d\u00e9filer jusqu'\u00e0 la section 'Int\u00e9grations approuv\u00e9es'",
+            "title": "Faites d\u00e9filer jusqu'aux int\u00e9grations approuv\u00e9es"
+          }
+        },
+        "loading": "Soumission de l'int\u00e9gration...",
+        "success": "Int\u00e9gration soumise avec succ\u00e8s !",
+        "title": "Connectez votre Canvas",
+        "urlInput": {
+          "placeholder": "URL de Canvas",
+          "title": "Veuillez saisir l'URL o\u00f9 vous acc\u00e9dez \u00e0 Canvas"
+        }
+      },
+      "default": {
+        "description": "Nous synchronisons avec votre plateforme d'apprentissage pour rendre votre exp\u00e9rience transparente.",
+        "title": "O\u00f9 devrions-nous chercher vos cours ?"
+      },
+      "deny": "Mon \u00e9cole n'utilise pas",
+      "noSupport": {
+        "description": "Nous travaillons d'arrache-pied pour ajouter d'autres int\u00e9grations. Restez \u00e0 l'\u00e9coute !",
+        "submit": "Commencez \u00e0 utiliser Unstuck en t\u00e9l\u00e9chargeant vos fichiers de cours",
+        "title": "Votre syst\u00e8me scolaire n'est pas encore pris en charge."
+      },
+      "uploadMaterials": "Je vais t\u00e9l\u00e9charger mes propres documents"
+    },
+    "productTour": {
+      "createClass": {
+        "instruction": "Unstuck vous permet de cr\u00e9er des classes pour organiser vos documents d'\u00e9tude. Cliquez sur le bouton 'Cr\u00e9er une classe' pour commencer.",
+        "title": "Cr\u00e9er une classe"
+      },
+      "fileManager": {
+        "instruction": "Cliquez ici pour ajouter des fichiers \u00e0 votre classe."
+      },
+      "namePrompt": {
+        "instruction": "C'est ici que vous organiserez vos documents d'\u00e9tude.",
+        "title": "Donnez un nom \u00e0 votre classe"
+      },
+      "quickActions": {
+        "chat": "Utilisez la fonctionnalit\u00e9 de chat pour poser des questions sur tous vos documents de cours et obtenir des r\u00e9ponses instantan\u00e9es.",
+        "flashcards": "Cr\u00e9ez des fiches \u00e0 partir de vos documents de cours.",
+        "overview": "Voici l'aper\u00e7u de votre classe, vous pouvez cr\u00e9er des discussions, ajouter des documents et plus encore.",
+        "record": "Enregistrez des notes audio ou des conf\u00e9rences pour les ajouter \u00e0 vos documents de cours.",
+        "title": "Hourra ! Vous avez cr\u00e9\u00e9 une classe"
+      },
+      "sharedFile": {
+        "instruction": "Importons un fichier d'exemple pour voir comment \u00e7a fonctionne. Cliquez sur Suivant pour importer un document exemple.",
+        "title": "Discutons maintenant !"
+      },
+      "suggestedMessages": {
+        "instruction": "Ces messages sugg\u00e9r\u00e9s vous aident \u00e0 discuter rapidement avec vos documents de cours. Essayez d'en cliquer un pour voir comment \u00e7a fonctionne !"
+      }
+    },
+    "student": {
+      "description": "Nous adapterons votre exp\u00e9rience en cons\u00e9quence.",
+      "title": "Quel type d'\u00e9tudiant \u00eates-vous ?"
+    }
+  },
+  "payment": {
+    "feedback": {
+      "description": {
+        "failure": "Votre paiement Unstuck a \u00e9chou\u00e9",
+        "success": "Votre paiement Unstuck a r\u00e9ussi"
+      },
+      "title": {
+        "failure": "Oups...",
+        "success": "Hourra !"
+      }
+    }
+  },
+  "playlist": {
+    "error": {
+      "fetch": "\u00c9chec de la r\u00e9cup\u00e9ration des donn\u00e9es de la playlist",
+      "invalid_url": "URL de la playlist invalide"
+    },
+    "importingFullPlaylist": "Importation de la playlist compl\u00e8te...",
+    "loading": "Veuillez patienter pendant le t\u00e9l\u00e9chargement de votre playlist",
+    "modal": {
+      "description": "Cette vid\u00e9o fait partie d'une playlist YouTube. Que voulez-vous faire ensuite ?",
+      "fullPlaylist": "Importer la playlist compl\u00e8te",
+      "singleVideo": "Importer une seule vid\u00e9o",
+      "singleVideos": "Importer des vid\u00e9os individuelles",
+      "title": "Playlist YouTube d\u00e9tect\u00e9e"
+    }
+  },
+  "purchase": {
+    "best-deal": "Meilleure offre",
+    "cancel-anytime": "annuler \u00e0 tout moment",
+    "features": {
+      "feat1": "Messages, conversations et notes illimit\u00e9es",
+      "feat2": "T\u00e9l\u00e9chargements de fichiers illimit\u00e9s",
+      "feat3": "Enregistrements de cours illimit\u00e9s",
+      "feat4": "Vid\u00e9os YouTube illimit\u00e9es",
+      "feat5": "Nous expliquons le raisonnement derri\u00e8re chaque r\u00e9ponse"
+    },
+    "mo": "/mois",
+    "monthly": "Mensuel",
+    "questions": {
+      "question1": {
+        "ans": "Unstuck accepte divers types de fichiers, notamment des documents texte, des images, des fichiers audio et des vid\u00e9os.",
+        "que": "Quels types de fichiers sont accept\u00e9s sur Unstuck ?"
+      },
+      "question2": {
+        "ans": "Unstuck utilise des algorithmes d'intelligence artificielle avanc\u00e9s pour analyser et traiter les donn\u00e9es d'entr\u00e9e, fournissant des informations, des pr\u00e9dictions ou effectuant des t\u00e2ches sp\u00e9cifiques en fonction des exigences de l'utilisateur.",
+        "que": "Comment fonctionne Unstuck ?"
+      },
+      "question3": {
+        "ans": "Unstuck se distingue par son interface conviviale, ses performances robustes et sa polyvalence. Il offre une large gamme de fonctionnalit\u00e9s adapt\u00e9es \u00e0 divers secteurs d'activit\u00e9 et cas d'utilisation, ce qui le diff\u00e9rencie des autres outils d'IA.",
+        "que": "En quoi Unstuck se diff\u00e9rencie-t-il des autres outils d'IA ?"
+      },
+      "question4": {
+        "ans": "Unstuck propose des plans d'utilisation flexibles. Chaque plan peut avoir des limites d'utilisation diff\u00e9rentes selon le niveau d'abonnement choisi.",
+        "que": "Y a-t-il des limites d'utilisation pour Unstuck ?"
+      },
+      "question5": {
+        "ans": "Unstuck est utilis\u00e9 pour des t\u00e2ches telles que l'analyse de donn\u00e9es, le traitement du langage naturel, la reconnaissance d'images, la mod\u00e9lisation pr\u00e9dictive et bien d'autres. Il trouve des applications dans divers secteurs, notamment la sant\u00e9, la finance, le marketing et l'\u00e9ducation. Unstuck est utilis\u00e9 pour des t\u00e2ches telles que l'analyse de donn\u00e9es, le traitement du langage naturel, la reconnaissance d'images, la mod\u00e9lisation pr\u00e9dictive et bien d'autres. Il trouve des applications dans divers secteurs, notamment la sant\u00e9, la finance, le marketing et l'\u00e9ducation.",
+        "que": "\u00c0 quoi sert Unstuck ?"
+      }
+    },
+    "start-free-trial": "Commencez mon essai gratuit",
+    "subtitle1": "Obtenez 1 semaine d'Unstuck Pro gratuitement",
+    "subtitle1_no_trial": "Obtenez un acc\u00e8s illimit\u00e9 aux fonctionnalit\u00e9s d'Unstuck",
+    "subtitle2": "\u00c9tudiants et chercheurs du monde entier \ud83c\udf0d",
+    "subtitle4": "S\u00e9lectionnez un plan pour votre essai gratuit.",
+    "timeline": {
+      "subtitle1": "D\u00e9verrouillez les fonctionnalit\u00e9s d'abonnement, notamment les chats, plus de fichiers, une IA avanc\u00e9e et plus encore.",
+      "subtitle2": "Recevez un rappel de la fin de votre p\u00e9riode d'essai.",
+      "subtitle3": "Vous serez factur\u00e9 le montant de l'abonnement. Annulez \u00e0 tout moment avant.",
+      "title1": "Aujourd'hui",
+      "title2": "Dans 5 jours",
+      "title3": "Dans 7 jours"
+    },
+    "title1": {
+      "part1": "Profitez d'un essai gratuit",
+      "part2": "7 jours",
+      "part3": "p\u00e9riode d'essai"
+    },
+    "title1_no_trial": "D\u00e9verrouillez votre r\u00e9ussite acad\u00e9mique",
+    "title2": {
+      "part1": "Rejoignez la",
+      "part2": "2M+",
+      "part3": "les \u00e9tudiants qui nous font confiance"
+    },
+    "title3": "Questions fr\u00e9quemment pos\u00e9es",
+    "title4": "Comment \u00e7a fonctionne",
+    "upgrade-now": "Passez \u00e0 la version sup\u00e9rieure",
+    "upgradePlan": "Passer \u00e0 un plan sup\u00e9rieur",
+    "usage": "utilisation",
+    "yearly": "Annuel"
+  },
+  "quiz": {
+    "explanation": "Explication",
+    "generate_quiz_modal": {
+      "quiz_is_being_created": "Le quiz est en cours de cr\u00e9ation, veuillez patienter...",
+      "quiz_steps": {
+        "customize": {
+          "description": "Choisissez les sujets qui ont le plus de sens pour ce que vous voulez \u00e9tudier",
+          "long_name": "Comment devrions-nous orienter nos questions ?",
+          "name": "Personnaliser"
+        },
+        "resources": {
+          "description": "Choisissez les fichiers \u00e0 sourcer",
+          "long_name": "Ajouter des ressources pour votre {{variant}}",
+          "name": "Ressources"
+        },
+        "settings": {
+          "description": "Assurons-nous que votre quiz est con\u00e7u pour une efficacit\u00e9 d'\u00e9tude maximale",
+          "long_name": "Finalisez votre quiz",
+          "name": "Param\u00e8tres"
+        }
+      },
+      "steps": {
+        "customizing_quiz": "Personnaliser votre quiz",
+        "finalizing_quiz": "Finalisation de votre quiz",
+        "generating_quiz": "G\u00e9n\u00e9ration de votre quiz",
+        "getting_ready": "Pr\u00e9paration en cours..."
+      }
+    },
+    "modal": {
+      "quit": "Quitter",
+      "quit_confirmation_body": "Si vous quittez, votre progression sera sauvegard\u00e9e et vous pourrez continuer plus tard.",
+      "quit_confirmation_title": "\u00cates-vous s\u00fbr de vouloir quitter ?",
+      "stay": "Continuer le quiz"
+    },
+    "question": "Question",
+    "question_order": {
+      "body": "Voulez-vous m\u00e9langer les questions de ce quiz ?",
+      "keep_order": "Garder l'ordre",
+      "shuffle": "M\u00e9langer",
+      "title": "Ordre des questions"
+    },
+    "question_page": {
+      "accuracy": "Pr\u00e9cision",
+      "answer": "R\u00e9ponse",
+      "correct": "Correct",
+      "correct_answer": "R\u00e9ponse correcte",
+      "explanation": "Explication",
+      "finish": "Terminer",
+      "incorrect": "Incorrect",
+      "loading_more": "Chargement de plus de questions...",
+      "next_question": "Question suivante",
+      "of": "de",
+      "question": "Question",
+      "review_past_question": "Revoir la question pr\u00e9c\u00e9dente",
+      "skip": "Passer",
+      "submit_answer": "Soumettre la r\u00e9ponse",
+      "submitting": "En cours d'envoi...",
+      "you_skipped_this_question": "Vous avez saut\u00e9 cette question.",
+      "your_answer": "Votre r\u00e9ponse"
+    },
+    "question_types": {
+      "fill_in_the_blank": "Remplir les blancs",
+      "multiple_choice": "Choix Multiples",
+      "short_answer": "R\u00e9ponse courte",
+      "true_false": "Vrai/Faux"
+    },
+    "quiz_preview": {
+      "delete_question": {
+        "cancel": "Annuler",
+        "delete": "Supprimer",
+        "description": "\u00cates-vous s\u00fbr de vouloir supprimer cette question ?",
+        "title": "Supprimer la question"
+      },
+      "delete_quiz": {
+        "cancel": "Annuler",
+        "confirm": "Supprimer",
+        "description": "\u00cates-vous s\u00fbr de vouloir supprimer ce quiz ?",
+        "title": "Supprimer le quiz"
+      },
+      "generating": "Les questions continueront \u00e0 \u00eatre g\u00e9n\u00e9r\u00e9es automatiquement, sans fin.",
+      "preview_of_your": "Aper\u00e7u de votre",
+      "question_quiz": "questionnaire"
+    },
+    "quiz_view": {
+      "button_text": {
+        "add_resources": "Ajouter des ressources d'abord",
+        "back": "Retour",
+        "create_quiz": "Cr\u00e9er un quiz",
+        "next": "Suivant",
+        "select_quiz_mode": "S\u00e9lectionnez le mode {{variant}}",
+        "select_topics": "S\u00e9lectionnez les sujets d'abord",
+        "skip_topics": "Ignorer les sujets",
+        "wait_for_uploads": "Attendez les t\u00e9l\u00e9chargements"
+      },
+      "choose_mode": "Choisir le mode",
+      "clear_all": "Tout effacer",
+      "coming_soon": "\u00c0 venir",
+      "custom_topics": "Sujets personnalis\u00e9s",
+      "done_adding_resources": "Ajouter des ressources",
+      "grind_away": "Grind Away",
+      "grind_away_coming_soon": "Grind Away arrive bient\u00f4t ! Merci de nous avoir fait part de votre enthousiasme !",
+      "hide": "Masquer la r\u00e9ponse",
+      "loading_files": "Chargement de vos fichiers...",
+      "no_files_found": "Aucun fichier trouv\u00e9. Veuillez d'abord t\u00e9l\u00e9charger des fichiers.",
+      "no_resources": "Glissez-d\u00e9posez des fichiers ou ",
+      "no_topics": "G\u00e9n\u00e9ration des sujets...",
+      "num_questions": "{{num}} Questions",
+      "previous_attempts": "Tentatives pr\u00e9c\u00e9dentes",
+      "question_types": "Choisir les types de questions",
+      "quick_uploading": "Nous avons re\u00e7u votre fichier ! Un instant...",
+      "resume_quiz": "Reprendre le quiz",
+      "review_quiz_questions": "Aper\u00e7u du quiz",
+      "select_all": "Tout s\u00e9lectionner",
+      "select_files_from_list": "S\u00e9lectionner des fichiers dans la liste",
+      "select_from_files": "S\u00e9lectionnez dans vos fichiers",
+      "select_topics": "S\u00e9lectionnez les sujets \u00e0 inclure",
+      "selected": "s\u00e9lectionn\u00e9",
+      "selected_resources": "Ressources s\u00e9lectionn\u00e9es",
+      "separate_custom_topics": "S\u00e9parez les sujets personnalis\u00e9s par une virgule",
+      "show": "Afficher la r\u00e9ponse",
+      "source": "Source",
+      "sources": "Sources",
+      "stepper": {
+        "customizing": "Personnalisation de votre {{variant}}",
+        "diving_into": "Plong\u00e9e dans {{topic}}",
+        "finalizing": "Finalisation de votre {{variant}}",
+        "generating": "G\u00e9n\u00e9ration de votre {{variant}}",
+        "quiz_ready": "{{variant}} est pr\u00eat !",
+        "studying": "\u00c9tude de {{fileName}}"
+      },
+      "take_quiz": "Commencer le quiz",
+      "test_your_skills": "Testez vos comp\u00e9tences",
+      "unlimited_questions": "Questions illimit\u00e9es",
+      "uploading": "T\u00e9l\u00e9chargement"
+    },
+    "while_in_question": {
+      "False": "Faux",
+      "True": "Vrai",
+      "correct": "C'est correct! Excellent travail.",
+      "incorrect": "Ce n'\u00e9tait pas la r\u00e9ponse que nous attendions",
+      "type_answer": "Tapez votre r\u00e9ponse ici..."
+    }
+  },
+  "rules": {
+    "required": {
+      "name": "Le nom est requis"
+    }
+  },
+  "share": {
+    "import": {
+      "confirm": {
+        "description": "\u00cates-vous s\u00fbr de vouloir importer le {{shareType}} \"{{shareName}}\" ?",
+        "title": "Confirmer l'importation ?"
+      },
+      "error": {
+        "notFound": "404 - Partage introuvable",
+        "unknown": "Une erreur inconnue est survenue"
+      },
+      "failure": "\u00c9chec de l'importation",
+      "importing": "Tentative d'importation du partage...",
+      "success": "Importation r\u00e9ussie"
+    }
+  },
+  "user": {
+    "appBanner": {
+      "close": "Fermer la banni\u00e8re",
+      "description": "\u00c9tudiez mieux avec notre application mobile",
+      "title": "Obtenez l'application Unstuck"
+    },
+    "blockUi": {
+      "description": "Veuillez r\u00e9essayer avec un appareil plus grand. Nous vous recommandons d'utiliser un ordinateur portable pour une meilleure exp\u00e9rience.",
+      "title": "Actuellement, Unstuck ne prend pas en charge les petits \u00e9crans pour le moment."
+    },
+    "manageSubscription": "G\u00e9rer l'abonnement"
+  }
+}

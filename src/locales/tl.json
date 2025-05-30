@@ -1,0 +1,1078 @@
+{
+  "auth": {
+    "common": {
+      "getStarted": "Magsimula",
+      "logOut": "Mag-logout",
+      "login": "Mag-log in",
+      "signUp": "Mag-sign up",
+      "toUnstuckAI": "upang ma-Unstuck AI"
+    },
+    "expiredSession": {
+      "submit": "Mag-sign in",
+      "subtitle": "Mangyaring mag-login muli upang magpatuloy ang iyong sesyon",
+      "title": "Maaaring nag-expire na ang iyong sesyon."
+    },
+    "failedLogout": {
+      "submit": "Mag-log out",
+      "title": "Nabigo ang pag-log out. Subukan muli."
+    },
+    "impersonate": {
+      "loginSecret": "Sekreto sa Pag-login",
+      "submit": "Mag-impersonate ng User",
+      "userId": "ID ng User"
+    },
+    "signIn": {
+      "apple": "Magpatuloy gamit ang Apple",
+      "google": "Magpatuloy gamit ang Google"
+    },
+    "signUp": "Mag-sign up",
+    "subtitle": "Mag-sign in para ma-enjoy"
+  },
+  "chat": {
+    "copilot": {
+      "collapse": "Iksi ang mga Hakbang",
+      "expand": "Palawakin ang mga Hakbang",
+      "search": {
+        "completed": "Nakapag-hanap na ng solusyon!",
+        "inProgress": "Paghahanap ng solusyon ay kasalukuyang isinasagawa"
+      }
+    },
+    "courseTitle": {
+      "fileUpload_one": "Mayroon kang {{count}} file na nai-upload para sa workspace na ito. Mangyaring isaalang-alang ito bago magpadala ng mensahe.",
+      "fileUpload_other": "Mayroon kang {{count}} file na nai-upload para sa workspace na ito. Mangyaring maging maingat sa pagpapadala ng mensahe.",
+      "text": {
+        "subtitle": {
+          "default": "Ikaw ay nakikipag-chat sa lahat ng mga file sa iyong kurso, gamitin ang sidebar upang pamahalaan kung aling mga file ang makikipag-chat",
+          "one": "Gamitin ang sidebar para magdagdag ng higit pang mga file kung kinakailangan",
+          "otherLength": "Gamitin ang sidebar upang pamahalaan sila"
+        }
+      },
+      "title": "Kasalukuyang nakikipag-chat ka sa"
+    },
+    "delete": {
+      "description": {
+        "account": "Kapag na-delete mo na ang iyong account, hindi mo na ito mabubuhay muli",
+        "otherEntity": "Kapag na-delete mo na ang {{entityType}} na ito, hindi mo na ito maibabalik"
+      },
+      "title": {
+        "account": "Sigurado ka bang gusto mong tanggalin ang iyong account?",
+        "otherEntity": "Sigurado ka bang gusto mong tanggalin ang {{name}}?"
+      }
+    },
+    "dragToUpload": {
+      "description": "Drop Lecture Slides, Notes, Videos, and Textbooks and start chatting - for",
+      "error": "Hindi mapag-upload ang {{fileType}} file type. Mangyaring mag-upload lamang ng mga {{acceptedFileTypes}} file types.",
+      "free": "LIBRE",
+      "select": {
+        "base": "Mag-drag at mag-drop o pumili ng mga file",
+        "computer": "Mula sa Computer",
+        "files": "Mula sa na-upload na mga file",
+        "placeholder": "Magdagdag ng mga mapagkukunan"
+      },
+      "title": "I-drag at i-drop ang mga file"
+    },
+    "example": {
+      "title": "Likha ng {{example}} chat"
+    },
+    "feedback": {
+      "close": "Isara ang Puna",
+      "question": {
+        "placeholder": "Isulat ang iyong sagot dito..."
+      },
+      "submit": "Magpadala ng Puna",
+      "title": "Puna"
+    },
+    "fileUpload": {
+      "description": "Mag-drop ng Slides, Lecture, Notes, Recording at magsimulang makipag-chat",
+      "description_flashcards": "Ihulog ang mga Slides, Lecture, Notes, Recording at magsimulang gumawa ng mga flashcards",
+      "for": "para",
+      "free": "nang libre",
+      "free1": "LIBRE",
+      "loading": "Lumikha ng chat room",
+      "youtube": {
+        "chatWithVideo": "Makipag-chat gamit ang Video",
+        "description": "Idragdag ang link sa isang video sa youtube upang idagdag sa iyong mga file",
+        "from": "Mula sa Youtube",
+        "uploadFrom": "Mag-upload mula sa Youtube"
+      }
+    },
+    "header": {
+      "editChat": "I-edit ang Chat",
+      "editClass": "I-edit ang Pangalan ng Klase",
+      "upgrade": "I-upgrade ang Plano"
+    },
+    "input": {
+      "error": "Hindi napadala ang mensahe. Pakisubukan muli.",
+      "placeholder": "Magtanong ng kahit ano, o magpasok ng Youtube link...",
+      "success": "Sandali lang, ireredirek ka sa iyong bagong chat"
+    },
+    "message": {
+      "ai": {
+        "error": "Hindi makarga ang mensahe. Pakisubukan muli sa ibang pagkakataon."
+      },
+      "error": "Nabigo ang mensahe",
+      "raw": "Hilaw"
+    },
+    "quick": {
+      "error": "Hindi na-proseso ang video"
+    },
+    "regenerate": {
+      "error": "May mali sa pagbuo ng tugon",
+      "submit": "Muling Gumawa"
+    },
+    "share": {
+      "copy": {
+        "with": "Ibahagi ang kopya ng chat na may mga existing na mensahe",
+        "without": "Ibahagi ang kopya ng chat na walang mga naunang mensahe"
+      },
+      "description": {
+        "instructions": "Ang iyong pangalan, mga pasadyang tagubilin, at anumang mga mensahe na idadagdag mo pagkatapos ng pagbabahagi ay mananatiling pribado."
+      },
+      "title": "Ibahagi Ang Chat Na Ito"
+    },
+    "upgrade": {
+      "ajoinThe2Million": "Sumali sa 2 milyong mag-aaral na nagtitiwala sa amin",
+      "answeredQuestions": "Mga tanong na nasagot",
+      "join": "Sumali sa",
+      "messageLimit": "Naabot mo na ang limitasyon sa mensahe",
+      "trust": "na nagtitiwala sa amin",
+      "unlimitedAccess": "Sa Unstuck Pro, makakakuha ka ng walang limitang access sa lahat ng mga tampok ng unstuck!",
+      "unlimitedQuestions": "Mag-upgrade sa pro para makapag-tanong ng walang limitasyon!"
+    },
+    "video": {
+      "helpfulTip": "Nakatulong ba ang video na ito?",
+      "watchAgain": "Panoorin Muli"
+    }
+  },
+  "class": {
+    "menu": {
+      "actions": {
+        "askCustomerSupport": "Magtanong sa customer support",
+        "joinDiscord": "Sumali sa Discord",
+        "tutorial": "Tingnan ang Tutorial"
+      },
+      "conversationList": {
+        "recent": "Kamakailang",
+        "recentChat": "Mga Kamakailang Chat",
+        "unassignedChat": "Mga Di-naka-talagang Chat"
+      },
+      "sidebar": {
+        "close": "Isara ang Sidebar",
+        "error": "Hindi makarga ang sidebar",
+        "open": "Buksan ang Sidebar",
+        "quest": {
+          "title": "Mga Gawain sa Pagpapakilala"
+        }
+      },
+      "unsavedRecordings": "Mayroon kang {{numUnsavedRecordings}} hindi na-save na mga recording"
+    },
+    "pageHeader": {
+      "description": "Tingnan ang mga klase na iyong nalikha",
+      "title": "Aking mga Klase"
+    },
+    "workspace": {
+      "aboutClasses": "Tungkol sa mga klase",
+      "allFileBrowsing": {
+        "error": "Hindi makarga ang mga file",
+        "selectFile": "Mangyaring pumili ng hindi bababa sa isang file",
+        "title": "Lahat ng mga File"
+      },
+      "createNewClass": "Lumikha ng bagong Klase",
+      "duplicateClassDescription": "madudobleng sa iyong klase",
+      "duplicateClassTitle": "Dobleng Klase?",
+      "error": {
+        "class_not_found": "Ang klase na sinusubukang mong ma-access ay hindi umiiral o nabura na.",
+        "class_not_found_title": "Walang nakitang klase"
+      },
+      "error_one": "Hindi me load nahi ho saka",
+      "error_other": "Hindi mein load nahin ho sake",
+      "header": {
+        "share": {
+          "description": "Ibahagi ang klaseng ito sa iyong mga kaklase sa pamamagitan ng pagbabahagi ng link sa ibaba.",
+          "title": "Ibahagi ang klaseng ito"
+        }
+      },
+      "new": "Bagong Klase",
+      "onboarding": {
+        "description": "When you start a chat with a class, Unstuck uses all materials in it to provide answers, citing across sources for higher accuracy and relevance.",
+        "title": "Ang mga klase ay organisadong hanay ng mga materyales na maaari mong makipag-chat.",
+        "titlePrimary": "Ang mga klase ay katulad ng mga folder para sa iba't ibang paksa na gusto mong gamitin para sa Unstuck."
+      },
+      "quickActions": {
+        "chatWith": "makipag-chat sa",
+        "flashcardFor": "flashkard para sa",
+        "quizFor": "kwiksyon pou",
+        "recordFor": "rekord para sa",
+        "title": "Mabilis na aksyon"
+      }
+    }
+  },
+  "collection": {
+    "asc": "Petsa ng Paglikha - Asc",
+    "dsc": "Petsa ng Paglikha - Desc",
+    "flashcards": {
+      "list": {
+        "empty": {
+          "description": "Gumawa ng mga flashcard upang makuha ang buong potensyal ng Unstuck.",
+          "title": "Hindi pa nakalikha ng anumang flashcard"
+        },
+        "error": "Hindi na na-load ang mga flashcard"
+      }
+    },
+    "history": {
+      "list": {
+        "empty": {
+          "description": "Gumawa ng chat upang makuha ang buong potensyal ng Unstuck.",
+          "title": "Wala ka pang nalikhang chat"
+        },
+        "error": "Hindi naload ang kasaysayan"
+      }
+    },
+    "questions": "{{count}} mga tanong",
+    "quizzes": {
+      "empty": {
+        "description": "Gumawa ng mga quiz para makuha ang buong potensyal ng Unstuck.",
+        "title": "Hindi pa nakalikha ng anumang quiz"
+      },
+      "error": "Hindi mukhang na-load ang mga quiz"
+    },
+    "recents": "Mga Nakaraang",
+    "sevenDaysAgo": "nitong nakaraang 7 araw",
+    "terms": "{{count}} termino"
+  },
+  "common": {
+    "addClass": "Idagdag sa Klase",
+    "addFile": "Magdagdag ng file",
+    "address": "Address",
+    "allFiles": "Lahat ng mga File",
+    "askQuestion": "Magtanong",
+    "cancel": "Kanselahin",
+    "chat": "Pag-uusap",
+    "chats": "Mga Chat",
+    "class_one": "Klase",
+    "class_other": "Klase",
+    "classes": "Klase",
+    "clickHere": "I-click dito",
+    "close": "Isara",
+    "closeDialog": "Isara ang Dialog",
+    "collection": "Koleksyon",
+    "confirm": "Kumpirmahin",
+    "connectClass": "Kumonekta sa isang klase",
+    "copy": "Nakopya",
+    "copyLink": "Kopyahin ang Link",
+    "create": "Lumikha",
+    "createFlashcard": "Gawing flashcards",
+    "createQuiz": "Gawing quiz",
+    "daysAgo": "ilang araw na ang nakalipas",
+    "delete": "Burahin",
+    "deleteWithParameter": "Tanggalin {{name}}",
+    "done": "Tapos na",
+    "download": "I-download",
+    "downloadApp": {
+      "openInAppStore": "Buksan sa App Store",
+      "takeYourLearning": "Gamitin ang mobile app para makatala ng mga lecture, bumuhin ang mga nota, at marami pang iba!",
+      "useMobileApp": "Gamitin ang Unstuck kahit saan gamit ang aming mobile app"
+    },
+    "duplicate": "Kopyahin",
+    "email": "E-liham",
+    "enterToSearch": "Ipasok para maghanap",
+    "error": {
+      "base": "Mali",
+      "files": "Hindi makarga ang mga file",
+      "server": "Naganap ang isang error sa server. Pakisubukan muli sa ibang pagkakataon.",
+      "title": "Nagloloko!"
+    },
+    "exit": "Labas",
+    "expand": "Palawakin",
+    "files": "Mga File",
+    "finish": "Tapusin",
+    "fitToPage": "Igwang sa pahina",
+    "flashcards": "Flashcards",
+    "for": "para",
+    "goBack": "Bumalik",
+    "happy": "Masaya",
+    "history": "Kasaysayan",
+    "home": "Tahanan",
+    "hoursAgo": "ilang oras na ang nakalipas",
+    "import": "Angkatin",
+    "justNow": "Ngayon lang",
+    "language": "Wika",
+    "learnMore": "Matuto pa",
+    "loading": "Ikinakarga...",
+    "minutesAgo": "ilang minuto ang nakalipas",
+    "monthsAgo": "mga buwan na ang nakalipas",
+    "moreActions": "Marami pang aksyon",
+    "name": "Pangalan",
+    "new": "Bago",
+    "newChat": "Bagong Chat",
+    "newChatWithClass": "Bagong Chat kasama ang Klase",
+    "newFlashCard": "Bagong Set ng Flashcard",
+    "newFlashcard": "Mga Bagong Flashcard",
+    "newQuiz": "Bagong Quiz",
+    "newRecording": "Bagong Pag-record",
+    "next": "Susunod",
+    "notFound": "hindi natagpuan!",
+    "openSearch": "Buksan ang paghahanap",
+    "quiz": "Kwizy\u00f3",
+    "quizzes": "Mga Quiz",
+    "readTranscript": "Basahin ang Transcript",
+    "record": "Itala",
+    "references": "Mga Sanggunian",
+    "rename": "Palitan ng pangalan",
+    "renameWithParameter": "Palitan ang pangalan {{name}}",
+    "resources": "Mapagkukunan",
+    "retry": "Muling Subukan",
+    "sad": "malungkutin",
+    "save": "I-save",
+    "saved": "Na-save",
+    "search": "Hanapin",
+    "select": {
+      "class": "Pumili ng klase",
+      "language": "Pumili ng wika",
+      "major": "Pumili ng iyong kurso",
+      "school": "Piliin ang iyong paaralan"
+    },
+    "send": "Ipadala",
+    "sendMessage": "Ipadala ang mensahe",
+    "share": "Ibahagi",
+    "skip": "Laktawan",
+    "skipForNow": "Laktawan muna",
+    "sorry": "Paumanhin",
+    "startChat": "Simulan ang Chat",
+    "students": "mag-aaral",
+    "submit": "Ipasa",
+    "tag": "Tag",
+    "today": "Ngayong araw",
+    "type": "Magsulat",
+    "untitledChat": "Di-napamagatan na Chat",
+    "upload": "Ikarga",
+    "uploadFile": "Mag-upload ng file",
+    "viewAll": "Tingnan lahat",
+    "viewClass": "Tingnan ang Klase",
+    "warning": "Babala",
+    "yearsAgo": "nakalipas na taon",
+    "youtube": "Youtube"
+  },
+  "feedback": {
+    "description": "How do you feel about the notes that we give you?",
+    "negative": {
+      "description": "Piliin ang lahat ng naaangkop",
+      "reasons": {
+        "notRelevant": "Hindi ang nilalaman ay hindi nauugnay sa aking na-upload na mga materyales",
+        "notUseful": "Sila ay hindi kapaki-pakinabang sa akin",
+        "others": {
+          "placeholder": "Mangyaring itukoy ang iyong puna",
+          "title": "Iba pa"
+        },
+        "tooLengthy": "Ang mga tala ay masyadong mahaba",
+        "tooShort": "Ang mga tala ay masyadong maikli"
+      },
+      "title": "Bakit hindi mo nagustuhan sila?"
+    },
+    "reactions": {
+      "notSatisfied": "Hindi Satisfied",
+      "verySatisfied": "Napakamasaya"
+    },
+    "title": "Ipadala mo sa amin ang iyong puna"
+  },
+  "files": {
+    "list": {
+      "header": {
+        "confirm": {
+          "title_one": "Ikaw ay nagbubura ng {{count}} file",
+          "title_other": "Ikaw ay nagbubura ng {{count}} mga file"
+        }
+      },
+      "item": {
+        "addToWorkspace": {
+          "select": "Piliin ang klase na iuugnay"
+        },
+        "share": {
+          "description": "Ibahagi ang file na ito sa iyong mga kaklase gamit ang link sa ibaba.",
+          "title": "Ibahagi ang file na ito"
+        }
+      },
+      "noFiles": {
+        "instructions": {
+          "noSearch": "Mag-upload ng iyong mga file para makapag-usap ka sa kanila!",
+          "search": "Baguhin ang iyong mga filter sa paghahanap o alisin sila upang makita ang higit pang mga file"
+        },
+        "noFilesFound": "Walang nahanap na file",
+        "noFilesUploaded": "Wala ka pang na-upload na mga file"
+      },
+      "recording": {
+        "unsaved": {
+          "delete": "Burahin ang recording",
+          "name": "Pag-re-record",
+          "recover": "Muling makuha ang recording"
+        }
+      },
+      "uploadDate": "Petsa ng pag-upload"
+    },
+    "pageHeader": {
+      "description": "Tingnan ang mga file na naidagdag mo",
+      "title": "Aking mga File"
+    },
+    "pdf": {
+      "audio": {
+        "downloading": "Nagda-download ng audio, mangyaring maghintay..."
+      },
+      "chunk": {
+        "aboutReferences": "Tungkol sa mga Sanggunian",
+        "chatWith": "Makipag-chat",
+        "description": "Ang bawat sanggunian ay na-click at naka-link direkta sa pinagmulan nito, na nagbibigay-daan sa iyo na mabilis na mapatunayan ang impormasyon at siyasatin ang mas malawak na konteksto kung kinakailangan.",
+        "empty": {
+          "description": "Mag-upload ng mga file para makuha ang buong karanasan sa Unstuck",
+          "title": "Walang mga Reperensyang nagamit"
+        },
+        "title": "Ang mga sanggunian ay nakatutok sa eksaktong lokasyon sa iyong mga materyales sa kurso na sumusuporta sa mga sagot ng Unstuck.",
+        "topicCard": "Paksang Kard"
+      },
+      "upload": {
+        "close": "Isara ang nakalindang listahan ng file",
+        "message": {
+          "flashcards_submit": "Gumawa ng mga flashcard",
+          "submit": "Magsimula ng pag-chat",
+          "title": "Natapos na ang pag-upload ng {{filename}}."
+        },
+        "singular": "Ikinakarga ang file",
+        "title": "Pag-a-upload ng mga file",
+        "toggle": "Ipakita/Itago ang listahan ng mga naka-pendingng file"
+      }
+    }
+  },
+  "flashcards": {
+    "back": "bumalik",
+    "backToLastQuestion": "bumalik sa huling tanong",
+    "clickToFlip": "Klikin ang kard upang ikublit",
+    "edit": "I-edit",
+    "editFlashcard": "I-edit ang Flashcard",
+    "error": "May mali sa pagbuo ng iyong mga flashcard",
+    "flashset": {
+      "terms": "mga tuntunin"
+    },
+    "generating": "Binubuo ang iyong mga flashcard...",
+    "getAHint": "Kumuha ng hint",
+    "limit": {
+      "button": "Mag-upgrade na",
+      "message": "Naabutan mo na ang limitasyon sa pagbuo ng flashcards",
+      "upgrade": "Mangyaring mag-upgrade para makagawa ng maraming flashcards"
+    },
+    "memorized": "Nakalimutan",
+    "newFlashcard": "Bagong Flashcard",
+    "noFlashcard": "Wala pang flashcards.",
+    "progressCompletionMessage": "Wow, you know your stuff! You've sorted through all the cards",
+    "progressMessage20": "Ikaw ay nagsisimula pa lamang, magpatuloy!",
+    "progressMessage40": "Ikaw ay gumagawa ng mabuting pag-unlad sa set na ito",
+    "progressMessage60": "Padayon! Halos naabot mo na!",
+    "progressMessage80": "Halos na! Napakagaling mo sa set na ito!",
+    "restartFlashcards": "Muling Simulan ang mga Flashcard",
+    "review": {
+      "addMore": "Magdagdag pa",
+      "approveAll": "Aprubahan Lahat",
+      "approveAllCards": "Aprubahan ang lahat ng Flashcards?",
+      "approveTheseFlashcards": "Aprubahan ang mga flashcard na ito?",
+      "areYouSure": "{\n  'translation': 'Sigurado ka ba na gusto mong {{confirmAction}} Hindi na maaaring bawiin ang aksyong ito.'\n",
+      "deleteCards": "Tanggalin ang Flashcard?",
+      "deleteFlashcardSetSubTitle": "Sigurado ka bang gusto mong tanggalin ang set ng flashcard na ito? Hindi na maibabalik ang aksyong ito.",
+      "deleteFlashcardSetTitle": "Burahin ang Set ng Flashcard",
+      "deleteThisFlashcard": "Burahin ang flashcard na ito?",
+      "flashcardsToReview": "{{count}} flashcard na muling aralan",
+      "no": "Hindi",
+      "seeFlashcardsFrom": "Tingnan ang mga flashcard mula sa {{flashCardSource}}",
+      "yesApprove": "Oo, aprubahan",
+      "yesDelete": "Oo, tanggalin"
+    },
+    "selectFile": "Anong materyales ang nais mong gawing flashcards?",
+    "share": "Ibahagi",
+    "shareFlashcardSet": {
+      "description": "Ibahagi ang set ng flashcard na ito sa iyong mga kaklase sa pamamagitan ng pagbabahagi ng link sa ibaba.",
+      "title": "Ibahagi Ang Set ng Flashcard Na Ito"
+    },
+    "stillLearning": "Patuloy na Natututo",
+    "tabs": {
+      "all": "Lahat",
+      "starred": "Naka-star ({{starredLength}})"
+    },
+    "takeAWhile": "Ito ay maaaring tumagal ng ilang sandali depende sa laki ng iyong nai-upload",
+    "termsInThisSet": "Mga termino sa set na ito ({{setLength}})",
+    "trackProgress": "Masundan ang pag-unlad"
+  },
+  "health": {
+    "title": "Malusog nga Pahina"
+  },
+  "history": {
+    "list": {
+      "empty": {
+        "description": "Gumawa ng chat upang makuha ang buong potensyal ng Unstuck.",
+        "title": "Hindi pa nakalikha ng anumang chat"
+      },
+      "error": "Hindi load na ang kasaysayan"
+    },
+    "pageHeader": {
+      "description": "Tingnan ang mga chat na iyong nalikha",
+      "title": "Kasaysayan"
+    }
+  },
+  "landing": {
+    "examples": {
+      "title": "Magsimula gamit ang mga halimbawa"
+    },
+    "faq": {
+      "title": "Madalas Itanong"
+    },
+    "footer": {
+      "contact": "Makipag-ugnayan sa amin",
+      "description": "Kami adalah tim pembuat yang ramping yang bekerja secara langsung di NYC, didukung oleh investor kelas dunia seperti Neo, Cal Henderson, Maria Zhang, Adam Freed, Russell Kaplan, dan lainnya.",
+      "legal": "Legal at Pribadong-buhay",
+      "meetTheTeam": "Makilala ang koponan",
+      "privacy": "Pribadong",
+      "quickLinks": "Mga Madaling Link",
+      "socials": "Panlipunang Media",
+      "terms": "Mga Tuntunin",
+      "title": "Unstuck AI's first product was launched from our college dorm room in January 2023. Experiencing firsthand the shortcomings of the one-size-fits-all education system, we are on a mission to fix it through applied AI research and building delightful products."
+    },
+    "hero": {
+      "description": {
+        "citedAnswers": "makakuha ng mga sangguniang kasagutan",
+        "files": "mga file sa iyong klase",
+        "once": "agad at",
+        "withUnstuck": "Sa Unstuck AI, makipag-chat sa lahat ng"
+      },
+      "title": {
+        "chat": "Makipag-chat sa",
+        "your": "iyong"
+      }
+    },
+    "uploadWizard": {
+      "askQuestion": {
+        "placeholder": "Bakit asul ang langit?"
+      },
+      "fileUpload": {
+        "forFlashcards": {
+          "title": {
+            "click": "Magsimula nang gumawa ng mga flashcard",
+            "dragAndDrop": "batay sa iyong mga file"
+          }
+        },
+        "title": {
+          "click": "I-klik para mag-upload",
+          "dragAndDrop": "o mag-drop ng mga file"
+        }
+      },
+      "quiz": {
+        "button": "Magsagawa ng Quiz",
+        "description": "Ihulog ang mga Slide, Lektura, Mga Tala, Pag-re-record at magsimulang mag-aral",
+        "title": {
+          "quiz": "sa iyong mga file",
+          "test": "Suriin ang iyong kaalaman"
+        }
+      },
+      "recordLecture": {
+        "description": "at magsimulang makipag-usap",
+        "title": "Itala ang iyong mga lektura"
+      }
+    }
+  },
+  "language": {
+    "de": "Aleman",
+    "en": "Ingles",
+    "es": "Espanyol",
+    "fr": "Pranses",
+    "it": "Italyano",
+    "pt": "Filipino",
+    "title": "Palitan ang Wika",
+    "tl": "Filipino"
+  },
+  "newChatView": {
+    "classesFileBrowser": {
+      "error": "Hindi makarga ang mga file o klase",
+      "list": {
+        "description": "When you start a chat with a class, Unstuck uses all materials in it to provide answers, citing across sources for higher accuracy and relevance.",
+        "instruction": {
+          "noClass": "Ang isang klase ay isang hanay ng mga mapagkukunan na maaari mong makipag-chat. Gumawa ng isang klase upang makapagsimula!",
+          "otherClass": "Pumili ng klase para makipag-chat"
+        },
+        "title": "Ang mga klase ay organisadong hanay ng mga materyales na maaari mong makipag-chat."
+      },
+      "recordLecture": {
+        "description": "Itala ang iyong mga lektura at i-save sila upang magtanong",
+        "title": "Magsimula ng pag-rerekord",
+        "view": {
+          "confirm": {
+            "description": "Sigurado ka bang gusto mong umalis? Mawawala ang iyong kasalukuyang recording.",
+            "title": "Labas na Pag-record?"
+          },
+          "enchancedVoiceVisualizer": {
+            "description": "Ipinapasa ang iyong rekording... Mangyaring huwag umalis.",
+            "error": "May error sa pag-access sa iyong mikropono, mangyaring payagan ang access sa iyong mikropono o gumamit ng ibang browser",
+            "title": "Pag-re-record ay Nakapahinga"
+          },
+          "error": {
+            "description": "Mayroong isyu sa pag-upload ng iyong recording.",
+            "saveOnDevice": {
+              "submit": "I-save sa aking device",
+              "title": "Mangyaring i-save ito sa iyong device at i-upload muli ito sa ibang pagkakataon"
+            },
+            "title": "Mali sa Pag-upload",
+            "tryAgain": "Pakisubukan muli sa ibang pagkakataon."
+          },
+          "title": "Unstuck is recording"
+        }
+      }
+    },
+    "hiHowCanIHelpYouToday": "Kumusta, paano kita matutulungan ngayon?",
+    "onboarding": {
+      "questions": {
+        "description": "Ito ay nakakatulong upang mas maunawaan ka",
+        "dropdown": {
+          "placeholder": "Maghanap ng Computer Science, Biology, Physics..."
+        },
+        "otherPlaceholder": "Mangyaring tukuyin",
+        "step": "Hakbang {{questionIndex}} ng {{questionLength}}"
+      },
+      "study": {
+        "description": "Help me learn how to make the experience personalised for you. What level of study are you at?",
+        "step": "Hakbang 1 ng {{questionLength}}",
+        "title": "Kamusta, ako si Unstuck AI \ud83d\udc4b"
+      },
+      "upgradePlan": {
+        "annual": "Taon-taon",
+        "billed": "singil taon-taon",
+        "cancel": "kanselahin kahit kailan",
+        "description": "Mag-upgrade sa pro para makakuha ng walang limitang access sa lahat ng mga tampok ng unstuck.",
+        "features": {
+          "numberOne": "#1 Pinakamataas na AI Model sa Edukasyon",
+          "unlimited": {
+            "chat": "Walang Limitang Mga Mensahe at Pag-uusap",
+            "fileUploads": "Walang limitang pag-upload ng file",
+            "flashcards": "Walang Hanggang Flashcards",
+            "quizzes": "Walang Limitang Mga Quiz",
+            "recordings": "Walang Limitang Pag-re-record ng Lektura",
+            "youtubeUploads": "Walang Limitang Pag-upload sa Youtube"
+          }
+        },
+        "limit": {
+          "base": "I-upgrade sa Unlimited",
+          "document": "Naabot mo na ang limitasyon sa pag-upload ngayong araw",
+          "message": "Naabot mo na ang limitasyon sa pang-araw-araw na mensahe",
+          "quiz": "Narating na ang limitasyon sa pang-araw-araw na quiz",
+          "quiz-unlimited-questions-reached": "Narating na ang limitasyon sa tanong sa quiz araw-araw",
+          "recording": "Narating mo na ang limitadong pang-araw-araw sa pag-re-record",
+          "youtube": "Naabutan mo na ang limitadong pag-upload sa YouTube sa isang araw"
+        },
+        "monthly": "Buwanan",
+        "premium": "Premium",
+        "yearly": "Taon-taon"
+      }
+    },
+    "paywall": {
+      "cancelConfirmation": {
+        "description": "Once you cancel your plan you'll go back to the free plan",
+        "title": "Sigurado ka bang gusto mong kanselahin ang iyong plan?"
+      },
+      "cancelPlan": "Kanselahin ang plano",
+      "cancelReason": {
+        "description": "Nous aimerions savoir comment nous pouvons nous am\u00e9liorer. Veuillez partager vos r\u00e9flexions sur les raisons pour lesquelles vous avez d\u00e9cid\u00e9 d'annuler",
+        "options": {
+          "alternative": "Nakahanap ng mas mahusay na alternatibo",
+          "competitor": "Lumipat sa Kompetidor",
+          "expectations": "Hindi natugunan ang inaasahan",
+          "expensive": "Masyadong mahal",
+          "otherReason": "Iba",
+          "service": "Hindi na Kailangan ang Serbisyo",
+          "technicalIssues": "Mga Isyu sa Teknikal",
+          "temporarySubscription": "Pansamantalang Suskrisyon Lamang"
+        },
+        "title": "We're sorry to see you go"
+      },
+      "currentPlan": "Kasalukuyang plano",
+      "feedback": {
+        "description": "Mangyaring ibigay ang anumang mga suhestiyon na mayroon ka upang mapabuti ang aming produkto.",
+        "placeholder": "Naghuhusga ako na...",
+        "title": "Sabihin sa amin kung paano tayo maging mas mahusay"
+      },
+      "freePlan": "Libreng plano",
+      "proPlan": "Planong Pro",
+      "upgradeNow": "Mag-upgrade Na",
+      "upgradePlan": {
+        "description": "Makakuha ng higit pang mga henerasyon at higit pa",
+        "title": "Plano ng pag-upgrade"
+      },
+      "upgradePro": "Mag-upgrade sa Pro"
+    },
+    "yourPersonalAIAssistantToHelpWithYourSchoolWork": "Ang iyong personal na AI assistant upang matulungan ka sa iyong gawain sa paaralan, pumili ng klase o file upang makipag-chat"
+  },
+  "onboarding": {
+    "academic": {
+      "college": "Kolehiyo o unibersidad",
+      "description": "Gagamitin namin ito upang maikonekta ka sa tamang mga mapagkukunan",
+      "error": "Hindi makarga ang academic onboarding panel",
+      "major": "Major",
+      "title": "Atin pong kunin ang ilang akademikong impormasyon"
+    },
+    "confirm": {
+      "title": "Isinasagawa ang pagpaparehistro"
+    },
+    "error": "Mali sa paglikha ng sarbey sa onboarding",
+    "lmsLinker": {
+      "blackboard": {
+        "description": "Sininsenkronisa namin ang iyong Blackboard upang makuha ang iyong mga materyales sa kurso",
+        "extension": "Kunin ang Blackboard Sync chrome extension",
+        "instructions": {
+          "stepOne": {
+            "description": "Mag-click sa icon ng extension",
+            "title": "Buksan ang extension"
+          },
+          "stepThree": {
+            "description": "Pindutin ang kahel na 'buksan ang Unstuck' upang mag-login sa iyong account sa Unstuck",
+            "title": "Kumpleto ang proseso ng pag-link"
+          },
+          "stepTwo": {
+            "description": "Pindutin ang 'Link to Blackboard' button upang ma-authorize ang access sa blackboard",
+            "title": "Mag-link sa Blackboard"
+          }
+        },
+        "title": "Idugnay ang iyong Blackboard"
+      },
+      "canvas": {
+        "description": "Sininsenkronisa namin ang iyong Canvas upang makuha ang mga materyales sa kurso mo",
+        "instructions": {
+          "noSupport": "Ang browser mo ay hindi sumusuporta sa video tag.",
+          "stepFour": {
+            "description": "Idikdik at idrawat ang iyong token sa ibaba at i-link",
+            "title": "Ilagay ang token"
+          },
+          "stepOne": {
+            "description": "Mag-sign in sa Canvas at pumunta sa iyong settings page",
+            "title": "Pumunta sa Mga Setting"
+          },
+          "stepThree": {
+            "description": "Ilagay ang XXXXXXXX bilang pangalan, iwanang blangko ang patlang ng pag-expire, at i-click ang gumawa ng token",
+            "title": "Gumawa ng token"
+          },
+          "stepTwo": {
+            "description": "Mag-scroll pababa sa \"Approved Integrations\"",
+            "title": "Mag-scroll sa Aprubadong mga Integrasyon"
+          }
+        },
+        "loading": "Isinusumite ang Integrasyon...",
+        "success": "Integrasyon matagumpay na naisumite!",
+        "title": "Ikonekta ang iyong Canvas",
+        "urlInput": {
+          "placeholder": "URL ng Canvas",
+          "title": "Mangyaring ipasok ang URL kung saan ka nakakagamit ng Canvas"
+        }
+      },
+      "default": {
+        "description": "Nagsi-sync kami sa iyong LMS upang maging napakaayos ang iyong karanasan",
+        "title": "Nasaan natin dapat hanapin ang iyong mga klase?"
+      },
+      "deny": "Ang paaralan ko ay hindi gumagamit",
+      "noSupport": {
+        "description": "Nagsusumikap kaming maidagdag pa ang maraming integrasyon. Abangan!",
+        "submit": "Magsimula nang gamitin ang Unstuck sa pamamagitan ng pag-upload ng iyong mga file ng kurso",
+        "title": "Hindi pa na-su-suportahan ang sistema ng paaralan mo."
+      },
+      "uploadMaterials": "Ako ay mag-a-upload ng aking sariling mga materyales"
+    },
+    "productTour": {
+      "createClass": {
+        "instruction": "Unstuck nagpapahintulot sa iyo na lumikha ng mga klase upang organisahin ang iyong mga materyales sa pag-aaral. Klikin ang button na \"Create Class\" upang magsimula.",
+        "title": "Gumawa ng klase"
+      },
+      "fileManager": {
+        "instruction": "Mag-click dito para magdagdag ng mga file sa iyong klase."
+      },
+      "namePrompt": {
+        "instruction": "Ito ang magiging lugar kung saan mo aaralin ang iyong mga materyales.",
+        "title": "Bigyan ng pangalan ang iyong klase"
+      },
+      "quickActions": {
+        "chat": "Gamitin ang chat feature para magtanong tungkol sa lahat ng iyong mga materyales sa klase at makakuha ng agarang mga sagot.",
+        "flashcards": "Gumawa ng mga flashcard mula sa iyong mga materyales sa klase.",
+        "overview": "Ito ang pangkalahatang-ideya ng iyong klase, maaari kang gumawa ng mga chat, magdagdag ng mga materyales, at marami pang iba.",
+        "record": "Mag-rekord ng audio notes o lectures upang idagdag sa iyong mga materyales sa klase.",
+        "title": "Hurray! Nakagawa ka na ng klase!"
+      },
+      "sharedFile": {
+        "instruction": "Magpasok tayo ng sample file para makita kung paano ito gumagana. Mag-click sa next para ma-import ang halimbawang dokumento.",
+        "title": "Makipag-usap na tayo ngayon!"
+      },
+      "suggestedMessages": {
+        "instruction": "Ang mga suhestiyong mensaheng ito ay tumutulong sa iyo na mabilis na makipag-chat sa iyong mga materyales sa klase. Subukan na i-click ang isa para makita kung paano ito gumagana!"
+      }
+    },
+    "student": {
+      "description": "We'll streamline your experience accordingly",
+      "title": "Anong uri ng mag-aaral ka?"
+    }
+  },
+  "payment": {
+    "feedback": {
+      "description": {
+        "failure": "Nabigo ang iyong bayad sa Unstuck",
+        "success": "Ang iyong bayad sa Unstuck ay matagumpay"
+      },
+      "title": {
+        "failure": "Uh oh..",
+        "success": "Hurray!"
+      }
+    }
+  },
+  "playlist": {
+    "error": {
+      "fetch": "Hindi nakuha ang datos ng playlist",
+      "invalid_url": "Di-wastong URL ng playlist"
+    },
+    "importingFullPlaylist": "Inaangkat ang buong playlist...",
+    "loading": "Mangyaring maghintay habang nai-upload ang iyong playlist",
+    "modal": {
+      "description": "Ang bidyong ito ay bahagi ng isang YouTube playlist. Ano ang nais mong gawin sa susunod?",
+      "fullPlaylist": "Mag-import ng Buong Playlist",
+      "singleVideo": "Mag-import ng Solong Video",
+      "singleVideos": "Mag-import ng Solong mga Video",
+      "title": "Nakapansin ng Playlist sa YouTube"
+    }
+  },
+  "purchase": {
+    "best-deal": "Pinakamurang Alok",
+    "cancel-anytime": "kanselahin kahit kailan",
+    "features": {
+      "feat1": "Walang limitang Mga Mensahe, Mga Chat, at Mga Tala",
+      "feat2": "Walang Limitang Pag-upload ng File",
+      "feat3": "Walang limitang Pag-re-record ng Lektura",
+      "feat4": "Walang limitang mga video sa Youtube",
+      "feat5": "Ipinapaliwanag namin ang bawat dahilan ng sagot"
+    },
+    "mo": "/buwan",
+    "monthly": "Buwanan",
+    "questions": {
+      "question1": {
+        "ans": "Ang Unstuck ay tumatanggap ng iba't ibang uri ng file kabilang ang mga tekstong dokumento, imahe, audio file, at video.",
+        "que": "Anong uri ng mga file ang tinatanggap sa Unstuck?"
+      },
+      "question2": {
+        "ans": "Unstuck gumagamit ng advanced na mga algorithm ng artificial intelligence upang masuri at maproseso ang input na data, nagbibigay ng mga insight, hula, o nagsasagawa ng mga partikular na gawain batay sa mga kinakailangan ng user.",
+        "que": "Paano gumagana ang Unstuck?"
+      },
+      "question3": {
+        "ans": "Unstuck distinguishes itself through its user-friendly interface, robust performance, and versatility. It offers a wide range of features tailored for various industries and use cases, setting it apart from other AI tools.",
+        "que": "Paano naiiba ang Unstuck sa iba pang mga tool ng AI?"
+      },
+      "question4": {
+        "ans": "Unstuck offers flexible usage plans. Each plan may have different usage limits depending on the subscription level chosen.",
+        "que": "May mga limitasyon ba sa paggamit ng Unstuck?"
+      },
+      "question5": {
+        "ans": "Unstuck is used for tasks such as data analysis, natural language processing, image recognition, predictive modeling, and more. It finds applications across various industries including healthcare, finance, marketing, and education. Unstuck is used for tasks such as data analysis, natural language processing, image recognition, predictive modeling, and more. It finds applications across various industries including healthcare, finance, marketing, and education.",
+        "que": "Ano ang ginagamit ang Unstuck para?"
+      }
+    },
+    "start-free-trial": "Magsimula ng libreng taning",
+    "subtitle1": "Makakuha ng 1 linggo ng Unstuck Pro nang libre",
+    "subtitle1_no_trial": "Makakuha ng walang limitang access sa mga tampok ng Unstuck",
+    "subtitle2": "Mga estudyante at mananaliksik mula sa buong mundo \ud83c\udf0d",
+    "subtitle4": "Pumili ng plano para sa iyong libreng trial.",
+    "timeline": {
+      "subtitle1": "Mga tampok ng suskrisyon kabilang ang mga chat, higit pang mga file, advanced ai at higit pa.",
+      "subtitle2": "Makakuha ng paalala tungkol sa kung kailan matatapos ang iyong pagsubok.",
+      "subtitle3": "Aabonamentong halaga ang isingil sa iyo. Kanselahin kahit kailan bago.",
+      "title1": "Ngayong araw",
+      "title2": "Sa 5 araw",
+      "title3": "Sa loob ng 7 araw"
+    },
+    "title1": {
+      "part1": "Nakalibang libre",
+      "part2": "7 araw",
+      "part3": "pag-subukan"
+    },
+    "title1_no_trial": "Buksan ang iyong akademikong tagumpay",
+    "title2": {
+      "part1": "Sumali sa",
+      "part2": "2M+",
+      "part3": "mga estudyanteng nagtitiwala sa amin"
+    },
+    "title3": "Madalas Itanong na mga Katanungan",
+    "title4": "Paano ito gumagana",
+    "upgrade-now": "Mag-upgrade na",
+    "upgradePlan": "Upgrade plan",
+    "usage": "paggamit",
+    "yearly": "Taon-taon"
+  },
+  "quiz": {
+    "explanation": "Paliwanag",
+    "generate_quiz_modal": {
+      "quiz_is_being_created": "Ang quiz ay binubuo, mangyaring maghintay...",
+      "quiz_steps": {
+        "customize": {
+          "description": "Choose which topics make the most sense for what you want to study",
+          "long_name": "Paano natin dapat ihanda ang ating mga tanong?",
+          "name": "I-customize"
+        },
+        "resources": {
+          "description": "Pumili ng mga file na mapagkukuhanan",
+          "long_name": "Magdagdag ng Mapagkukunan para sa iyong {{variant}}",
+          "name": "Mapagkukunan"
+        },
+        "settings": {
+          "description": "Let's make sure your quiz is crafted for maximum study efficiency",
+          "long_name": "Tapusin ang iyong quiz",
+          "name": "Mga Setting"
+        }
+      },
+      "steps": {
+        "customizing_quiz": "Pag-customize ng iyong quiz",
+        "finalizing_quiz": "Hinihingil ang iyong quiz",
+        "generating_quiz": "Binubuo ang iyong quiz",
+        "getting_ready": "Naghahanda..."
+      }
+    },
+    "modal": {
+      "quit": "Umalisya",
+      "quit_confirmation_body": "Kung aayaw ka, mai-se-save ang iyong pag-unlad at maaari kang magpatuloy sa ibang pagkakataon.",
+      "quit_confirmation_title": "Sigurado ka bang gusto mong umayaw?",
+      "stay": "Ipagpatuloy ang Quiz"
+    },
+    "question": "Tanong",
+    "question_order": {
+      "body": "Nais mo bang halu-haluin ang mga tanong sa quiz na ito?",
+      "keep_order": "Panatilihin ang Ayos",
+      "shuffle": "Halu-haluhin",
+      "title": "Ayos ng Tanong"
+    },
+    "question_page": {
+      "accuracy": "Accuracy",
+      "answer": "Sagot",
+      "correct": "Tama",
+      "correct_answer": "Tamang Sagot",
+      "explanation": "Paliwanag",
+      "finish": "Tapos na",
+      "incorrect": "Mali",
+      "loading_more": "Naglo-load pa ng maraming tanong...",
+      "next_question": "Susunod na Tanong",
+      "of": "ng",
+      "question": "Tanong",
+      "review_past_question": "Suriin ang Nakaraang Tanong",
+      "skip": "Laktawan",
+      "submit_answer": "Ipasa ang Sagot",
+      "submitting": "Isinusumite...",
+      "you_skipped_this_question": "Naglaktawan ka sa tanong na ito.",
+      "your_answer": "Ang iyong sagot"
+    },
+    "question_types": {
+      "fill_in_the_blank": "Punan ang Blangko",
+      "multiple_choice": "Maramihang Pagpipilian",
+      "short_answer": "Sagot na Maikli",
+      "true_false": "Tama/Mali"
+    },
+    "quiz_preview": {
+      "delete_question": {
+        "cancel": "Kanselahin",
+        "delete": "Tanggalin",
+        "description": "Sigurado ka bang gusto mong tanggalin ang tanong na ito?",
+        "title": "Tanggalin ang Tanong"
+      },
+      "delete_quiz": {
+        "cancel": "Kanselado",
+        "confirm": "Tanggalin",
+        "description": "Sigurado ka bang gusto mong tanggalin ang quiz na ito?",
+        "title": "Tanggalin ang Quiz"
+      },
+      "generating": "Ang mga tanong ay patuloy na bubuo nang kusang-loob, walang hanggan.",
+      "preview_of_your": "Tanawin ng iyong",
+      "question_quiz": "tanong quiz"
+    },
+    "quiz_view": {
+      "button_text": {
+        "add_resources": "Magdagdag muna ng Mapagkukunan",
+        "back": "Bumalik",
+        "create_quiz": "Gumawa ng {{variant}}",
+        "next": "Sunod",
+        "select_quiz_mode": "Piliin ang {{variant}} Mode",
+        "select_topics": "Pumili muna ng mga Paksa",
+        "skip_topics": "Laktawan ang mga Paksa",
+        "wait_for_uploads": "Maghintay ng pag-upload"
+      },
+      "choose_mode": "Pumili ng Mode",
+      "clear_all": "Burahin Lahat",
+      "coming_soon": "Darating na",
+      "custom_topics": "Mga Pasadyang Paksa",
+      "done_adding_resources": "Magdagdag ng Mapagkukunan",
+      "grind_away": "Magpursigi",
+      "grind_away_coming_soon": "Grind Away is coming soon! Thanks for letting us know you're excited!",
+      "hide": "Itago ang Sagot",
+      "loading_files": "Naglo-load ang iyong mga file...",
+      "no_files_found": "Walang nahanap na file. Mag-upload muna ng mga file.",
+      "no_resources": "Mag-drag at mag-drop ng mga file o ",
+      "no_topics": "Binubuo ang mga paksa...",
+      "num_questions": "{{num}} Mga Tanong",
+      "previous_attempts": "Nakalipas na Pagsusumikap",
+      "question_types": "Pumili ng mga Uri ng Tanong",
+      "quick_uploading": "Nakuha na namin ang iyong file! Sandali lang...",
+      "resume_quiz": "Ipagpatuloy ang Quiz",
+      "review_quiz_questions": "Taunang Quiz",
+      "select_all": "Piliin Lahat",
+      "select_files_from_list": "Piliin ang mga file mula sa listahan",
+      "select_from_files": "Pumili mula sa iyong mga file",
+      "select_topics": "Pumili ng mga Paksa na Isasama",
+      "selected": "napili",
+      "selected_resources": "Piniling Mapagkukunan",
+      "separate_custom_topics": "Hiwalay ang mga pasadyang paksa sa pamamagitan ng kuwit-kuwit",
+      "show": "Ipakita ang Sagot",
+      "source": "Pinagmulan",
+      "sources": "Mga pinagmulan",
+      "stepper": {
+        "customizing": "Pag-customize ng iyong {{variant}}",
+        "diving_into": "Paglubog sa {{topic}}",
+        "finalizing": "Isinasagawa ang panghuling hakbang para sa iyong {{variant}}",
+        "generating": "Binubuo ang iyong {{variant}}",
+        "quiz_ready": "{{variant}} Handa na!",
+        "studying": "Pag-aaral ng {{fileName}}"
+      },
+      "take_quiz": "Simulan ang Quiz",
+      "test_your_skills": "Suriin ang iyong mga kasanayan",
+      "unlimited_questions": "Walang Hanggang Tanong",
+      "uploading": "Ikinakarga"
+    },
+    "while_in_question": {
+      "False": "Mali",
+      "True": "Totoo",
+      "correct": "Tama iyan! Magaling!",
+      "incorrect": "Yon s\u00e9 pa repons nou tap ch\u00e8che a",
+      "type_answer": "Isulat ang iyong sagot dito..."
+    }
+  },
+  "rules": {
+    "required": {
+      "name": "Kinakailangan ang pangalan"
+    }
+  },
+  "share": {
+    "import": {
+      "confirm": {
+        "description": "Sigurado ka bang nais mong i-import ang {{shareType}} na \"{{shareName}}\"?",
+        "title": "Kumpirmahin ang pag-import?"
+      },
+      "error": {
+        "notFound": "404 - Hindi Milaya Share",
+        "unknown": "Naganap ang hindi nakikilalang error"
+      },
+      "failure": "Hindi nakapag-import",
+      "importing": "Sinusubukang ma-import ang share...",
+      "success": "Matagumpay na na-import"
+    }
+  },
+  "user": {
+    "appBanner": {
+      "close": "Isara ang banner",
+      "description": "Mag-aral nang mas mahusay sa pamamagitan ng aming mobile app",
+      "title": "Kunin ang Unstuck App"
+    },
+    "blockUi": {
+      "description": "Please try again with a larger device. We recommend using a laptop for the best experience possible.",
+      "title": "Sa ngayon, hindi pa sinusuportahan ng Unstuck ang mga maliit na screen size."
+    },
+    "manageSubscription": "Pamamahala ng subscription"
+  }
+}
